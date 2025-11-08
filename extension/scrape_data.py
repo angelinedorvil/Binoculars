@@ -117,5 +117,10 @@ news_urls = news_links  # Using the imported list of news links
 with open("extension\cc_news.jsonl", "a", encoding="utf-8") as f:
     for url in news_urls:
         result = scrape_to_json(url)
-        # append to cc_news.jsonl
-        f.write(json.dumps(result, ensure_ascii=False) + "\n")
+        # check if url is already in cc_news.jsonl
+        if url in open("extension\cc_news.jsonl", "r", encoding="utf-8").read():
+            print(f"URL already exists in cc_news.jsonl, skipping: {url}")
+            continue
+        else:
+            # append to cc_news.jsonl
+            f.write(json.dumps(result, ensure_ascii=False) + "\n")

@@ -1,0 +1,4 @@
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:117: SyntaxWarning: invalid escape sequence '\c'
+  with open("extension\cc_news.jsonl", "a", encoding="utf-8") as f:
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:121: SyntaxWarning: invalid escape sequence '\c'
+  if url in open("extension\cc_news.jsonl", "r", encoding="utf-8").read():
