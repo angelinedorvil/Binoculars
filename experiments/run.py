@@ -55,6 +55,8 @@ def main(args):
     )
 
     score_df = convert_to_pandas(human_scores, machine_scores)
+    #me
+    score_df = score_df.dropna(subset=["score"])
     score_df["pred"] = np.where(score_df["score"] < THRESHOLD, 1, 0)
 
     # Compute metrics
