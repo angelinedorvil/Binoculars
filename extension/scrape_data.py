@@ -7,6 +7,7 @@ import tempfile
 import datetime
 from urllib.parse import urlparse
 from news_link import news_links  # Importing the list of news links
+from essays_link import essays_link  # Importing the list of essay links
 
 def extract_html_text(url):
     """Try to scrape HTML page and extract title, text, description."""
@@ -114,12 +115,13 @@ def scrape_to_json(url):
 # Main execution
 # ----------------
 news_urls = news_links  # Using the imported list of news links
-with open("extension\cc_news.jsonl", "a", encoding="utf-8") as f:
-    for url in news_urls:
+essay_urls = essays_link  # Using the imported list of essay links
+with open("extension\essays.jsonl", "a", encoding="utf-8") as f:
+    for url in essay_urls:
         result = scrape_to_json(url)
         # check if url is already in cc_news.jsonl
-        if url in open("extension\cc_news.jsonl", "r", encoding="utf-8").read():
-            print(f"URL already exists in cc_news.jsonl, skipping: {url}")
+        if url in open("extension\essays.jsonl", "r", encoding="utf-8").read():
+            print(f"URL already exists in essays.jsonl, skipping: {url}")
             continue
         else:
             # append to cc_news.jsonl

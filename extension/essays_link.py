@@ -29,5 +29,30 @@ essays_link = [
     # "https://rezonodwes.com/?p=316721",
     # "https://rezonodwes.com/?p=326982",
     # Poetry Collections Published as Essays
-    "https://www.potomitan.info/vedrine/poesies.php#chinwa",
+    # "https://www.potomitan.info/vedrine/poesies.php#chinwa",
+    # "https://www.potomitan.info/vedrine/elksyon.html",
+    # "https://www.potomitan.info/vedrine/vodou.php",
+    # "https://www.potomitan.info/vedrine/lekti.php",
+    # "https://www.potomitan.info/vedrine/espwa.html",
+    # "https://www.potomitan.info/vedrine/konsyantize.php",
+    # "https://www.potomitan.info/vedrine/oryantasyon.php",
+    # "https://www.potomitan.info/vedrine/maryaj.php",
+    # "https://www.potomitan.info/vedrine/dezyem.php",
+    # "https://www.potomitan.info/vedrine/pawoli.php",
+    # "https://www.potomitan.info/vedrine/50.php",
+    # "https://www.potomitan.info/vedrine/demen.php",
+    # "https://www.potomitan.info/vedrine/malis.php",
+    # "https://www.potomitan.info/vedrine/diskou.php",
+    # "https://www.potomitan.info/vedrine/estenvil.php",
+    "https://www.potomitan.info/vedrine/pwoveb.php",
+    "https://www.potomitan.info/vedrine/pati.php",
+    "https://www.potomitan.info/vedrine/teknik.php",
+    "https://www.potomitan.info/vedrine/okipasyon.php",
+    "https://www.potomitan.info/vedrine/politik.php",
+    "https://www.potomitan.info/vedrine/kandida_2006.php",
+    "https://www.potomitan.info/vedrine/dis_pwen-k.php",
+    
+
+
+
 ]
