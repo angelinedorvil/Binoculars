@@ -1,16 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import pdfkit
-import PyPDF2
-import tempfile
 import datetime
 from urllib.parse import urlparse
 from news_link import news_links  # Importing the list of news links
 from essays_link import essays_link  # Importing the list of essay links
 
 def extract_html_text(url):
-    """Try to scrape HTML page and extract title, text, description."""
+    """Try to scrape HTML page and extract full text (title + body) and description."""
     try:
         r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
         if r.status_code != 200:
@@ -33,7 +30,9 @@ def extract_html_text(url):
 
         # 3. First 10–15 words of article text
         article_tags = soup.find_all(["p", "article"])
-        raw_text = " ".join([t.get_text(" ", strip=True) for t in article_tags])
+        raw_text = " ".join(
+            [t.get_text(" ", strip=True) for t in article_tags]
+        )
         if not title and raw_text:
             title = " ".join(raw_text.split()[:12]) + "..."
 
@@ -48,77 +47,132 @@ def extract_html_text(url):
                 description = og_desc["content"].strip()
 
         # ---- TEXT ----
-        # raw_text already captured above
         if raw_text.strip() == "":
             return None  # signals "fallback to PDF"
 
+        # COMBINE TITLE AND TEXT INTO ONE TEXT BLOCK
+        if title:
+            combined_text = f"{title}\n\n{raw_text}"
+        else:
+            combined_text = raw_text
+
+        parsed = urlparse(url)
         return {
-            "title": title,
-            "text": raw_text,
-            "description": description
+            "text": combined_text,
+            "description": description,
+            "domain": parsed.netloc,
+            "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "url": url,
+            "image_url": None  # Optional – CC-News doesn't always have it
         }
-    except:
+
+    except Exception as e:
+        print("extract_html_text error:", e)
         return None
 
+def extract_multiple(url):
+    """
+    Extract multiple poems from a Potomitan page that contains several poems.
+    Returns a list of dicts with only:
+        - text  (title + poem body)
+        - description (always None here)
+    """
 
-def extract_pdf_text(url):
-    """Fallback: convert webpage to PDF then extract text."""
     try:
-        with tempfile.NamedTemporaryFile(suffix=".pdf") as tmp_pdf:
-            pdfkit.from_url(url, tmp_pdf.name)
+        r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        if r.status_code != 200:
+            return []
 
-            reader = PyPDF2.PdfReader(tmp_pdf.name)
+        soup = BeautifulSoup(r.text, "html.parser")
 
-            pdf_text = ""
-            for page in reader.pages:
-                pdf_text += page.extract_text() + "\n"
+        # Classes that act as poem titles
+        TITLE_CLASSES = {"titlepage2r", "titlepage2b", "textemanuelg", "textemanuel"}
 
-        # Title fallback for PDF
-        words = pdf_text.split()
-        title_fallback = " ".join(words[:12]) + "..." if len(words) > 0 else None
+        poems = []
+        current_title = None
+        current_lines = []
 
-        return {
-            "title": title_fallback,
-            "text": pdf_text,
-            "description": None
-        }
-    except:
-        return None
+        def save_current():
+            """Save one complete poem entry."""
+            if current_title and current_lines:
+                poem_body = "\n".join(current_lines).strip()
 
+                # ✅ Combine title + poem into the final text block
+                combined_text = f"{current_title.strip()}\n\n{poem_body}"
+                parsed = urlparse(url)
+                poems.append({
+                    "text": combined_text,
+                    "description": None,
+                    "domain": parsed.netloc,
+                    "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "url": url,
+                    "image_url": None  # Optional – CC-News doesn't always have it
 
-def scrape_to_json(url):
-    """Main pipeline matching CC-News structure."""
-    data = extract_html_text(url)
+                })
 
-    # If HTML extraction failed or empty → fallback to PDF
-    if not data:
-        print("HTML empty → falling back to PDF extraction…")
-        data = extract_pdf_text(url)
+        # Scan ALL tags in order — not only <p>
+        for tag in soup.find_all(True):
 
-    if not data:
-        return None  # fully failed
+            # ---- Detect any poem title fragments inside this tag ----
+            title_fragments = []
 
-    parsed = urlparse(url)
+            # Look for <span class="titlepage2*">
+            for span in tag.find_all("span", class_=lambda c: c in TITLE_CLASSES if c else False):
+                text = span.get_text(" ", strip=True)
+                if text:
+                    title_fragments.append(text)
 
-    return {
-        "title": data["title"],
-        "text": data["text"],
-        "description": data["description"],
-        "domain": parsed.netloc,
-        "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "url": url,
-        "image_url": None  # Optional – CC-News doesn't always have it
-    }
+            # Also detect a title if the tag itself has title classes
+            tag_classes = set(tag.get("class", []))
+            if tag_classes & TITLE_CLASSES:
+                text = tag.get_text(" ", strip=True)
+                if text:
+                    title_fragments.append(text)
+
+            # ---- If this tag contains a title, start a new poem ----
+            if title_fragments:
+                save_current()  # store previous poem
+                current_title = " ".join(title_fragments)
+                current_lines = []
+                continue
+
+            # ---- Otherwise, collect text as poem content ----
+            if current_title:
+                text = tag.get_text(" ", strip=True)
+                if text:
+                    current_lines.append(text)
+
+        # Save the last poem
+        save_current()
+
+        return poems
+
+    except Exception as e:
+        print("Error in extract_multiple:", e)
+        return []
 
 
 # ----------------
 # Main execution
 # ----------------
 news_urls = news_links  # Using the imported list of news links
-essay_urls = essays_link  # Using the imported list of essay links
+essay_urls = essays_link  # Using the imported dictionary of essay links
 with open("extension\essays.jsonl", "a", encoding="utf-8") as f:
     for url in essay_urls:
-        result = scrape_to_json(url)
+        if essay_urls[url] == "multiple":
+            results = extract_multiple(url)
+            for result in results:
+                # check if url is already in cc_news.jsonl
+                if result["text"] in open("extension\essays.jsonl", "r", encoding="utf-8").read():
+                    print(f"text already exists in essays.jsonl, skipping: {result["text"][:10]}...")
+                    continue
+                else:
+                    # append to cc_news.jsonl
+                    f.write(json.dumps(result, ensure_ascii=False) + "\n")
+            print(f"Extracted {len(results)} poems from {url}")
+            continue
+    
+        result = extract_html_text(url)
         # check if url is already in cc_news.jsonl
         if url in open("extension\essays.jsonl", "r", encoding="utf-8").read():
             print(f"URL already exists in essays.jsonl, skipping: {url}")

@@ -10,7 +10,7 @@ def load_existing_titles(path):
     """Prevent duplicates."""
     try:
         with open(path, "r", encoding="utf-8") as f:
-            return {json.loads(line)["title"] for line in f}
+            return {json.loads(line)["text"][:10] for line in f}
     except FileNotFoundError:
         return set()
 
@@ -43,9 +43,10 @@ def extract_poems(text, titles):
         # Clean up
         poem_body = poem_body.replace("\r", "").strip()
 
+        combined_text = f"{title.strip()}\n\n{poem_body.strip()}"
+
         poems.append({
-            "title": title.strip(),
-            "text": poem_body.strip(),
+            "text": combined_text,
             "description": None,
             "domain": "poetry-site",
             "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -70,11 +71,11 @@ poems = extract_poems(raw_text, TITLES)
 
 with open(OUTPUT_FILE, "a", encoding="utf-8") as f:
     for p in poems:
-        if p["title"] in existing:
-            print(f"Skipping duplicate: {p['title']}")
+        if p["text"] in existing:
+            print(f"Skipping duplicate: {p['text'][:10]}...")
             continue
 
         f.write(json.dumps(p, ensure_ascii=False) + "\n")
-        existing.add(p["title"])
+        existing.add(p["text"][:10])
 
 print(f"Saved {len(poems)} poems.")

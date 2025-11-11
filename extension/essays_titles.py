@@ -183,7 +183,14 @@ essays_titles = [
     "Analiz final 3",
     "Jete dlo, nan non zanset yo, 22 Dawou",
     "An verite poem",
+    "Brasè Poem",
+    "Jean Watson Charles Poem",
+    "Pou Edwidge Sylvain",
+    "Yo di POem",
+    "Man Klo pa la ankô",
+    "Manman Kreyòl Poem",
     
+
 
 
 
