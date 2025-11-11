@@ -2,7 +2,7 @@ import json
 import datetime
 from essays_titles import essays_titles
 
-TEXT_FILE = "extension/essays1.txt"        # path to your text file
+TEXT_FILE = "extension/essays2.txt"        # path to your text file
 OUTPUT_FILE = "extension/essays.jsonl"  # where we append JSONL
 TITLES = essays_titles
 

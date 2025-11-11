@@ -44,14 +44,22 @@ essays_link = [
     # "https://www.potomitan.info/vedrine/malis.php",
     # "https://www.potomitan.info/vedrine/diskou.php",
     # "https://www.potomitan.info/vedrine/estenvil.php",
-    "https://www.potomitan.info/vedrine/pwoveb.php",
-    "https://www.potomitan.info/vedrine/pati.php",
-    "https://www.potomitan.info/vedrine/teknik.php",
-    "https://www.potomitan.info/vedrine/okipasyon.php",
-    "https://www.potomitan.info/vedrine/politik.php",
-    "https://www.potomitan.info/vedrine/kandida_2006.php",
-    "https://www.potomitan.info/vedrine/dis_pwen-k.php",
+    # "https://www.potomitan.info/vedrine/pwoveb.php",
+    # "https://www.potomitan.info/vedrine/pati.php",
+    # "https://www.potomitan.info/vedrine/teknik.php",
+    # "https://www.potomitan.info/vedrine/okipasyon.php",
+    # "https://www.potomitan.info/vedrine/politik.php",
+    # "https://www.potomitan.info/vedrine/kandida_2006.php",
+    # "https://www.potomitan.info/vedrine/dis_pwen-k.php",
+    "https://www.potomitan.info/vedrine/enfomatize-01.php",
+    "https://www.potomitan.info/vedrine/pwogre.php",
+    "https://www.potomitan.info/ayiti/seisme_2021d.php",
+    "https://www.potomitan.info/vedrine/kapital.php",
+    "https://www.potomitan.info/vedrine/rekonstriksyon.php",
+    "https://www.potomitan.info/vedrine/fanm.html",
+    "https://www.potomitan.info/vedrine/temporada.php",
     
+
 
 
 
