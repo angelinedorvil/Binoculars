@@ -55,6 +55,14 @@ def main(args):
     )
 
     score_df = convert_to_pandas(human_scores, machine_scores)
+    #me
+    total_rows = len(score_df)
+    nan_rows = score_df["score"].isna().sum()
+    
+    print(f"Binoculars: {nan_rows} NaN scores out of {total_rows} total rows")
+
+    score_df = score_df.dropna(subset=["score"])
+    # me end
     score_df["pred"] = np.where(score_df["score"] < THRESHOLD, 1, 0)
 
     # Compute metrics
