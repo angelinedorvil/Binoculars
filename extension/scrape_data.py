@@ -152,6 +152,55 @@ def extract_multiple(url):
         print("Error in extract_multiple:", e)
         return []
 
+def extract_book_text(url):
+    """Extracts full text of an archive.org book (inside <pre> tags)."""
+    try:
+        r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        if r.status_code != 200:
+            return None
+
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # ---- TITLE ----
+        h1 = soup.find("h1")
+        title = h1.get_text(strip=True) if h1 else None
+
+        # ---- FULL TEXT ----
+        pre_tag = soup.find("pre")
+        if not pre_tag:
+            return None  # no <pre> block found
+
+        book_text = pre_tag.get_text("\n", strip=True)
+
+        if not book_text:
+            return None
+
+        # ---- COMBINE ----
+        if title:
+            combined_text = f"{title}\n\n{book_text}"
+        else:
+            combined_text = book_text
+
+        # ---- DESCRIPTION (optional meta or intro) ----
+        description = None
+        meta_desc = soup.find("meta", attrs={"name": "description"})
+        if meta_desc and meta_desc.get("content"):
+            description = meta_desc["content"].strip()
+
+        parsed = urlparse(url)
+        return {
+            "text": combined_text,
+            "description": description,
+            "domain": parsed.netloc,
+            "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "url": url,
+            "image_url": None
+        }
+
+    except Exception as e:
+        print("extract_book_text error:", e)
+        return None
+
 
 # ----------------
 # Main execution
@@ -173,7 +222,17 @@ with open("extension\_blogs.jsonl", "a", encoding="utf-8") as f:
                     f.write(json.dumps(result, ensure_ascii=False) + "\n")
             print(f"Extracted {len(results)} blog from {url}")
             continue
-    
+        if blog_urls[url] == "book":
+            result = extract_book_text(url)
+            # check if url is already in cc_news.jsonl
+            if url in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
+                print(f"URL already exists in blogs.jsonl, skipping: {url}")
+                continue
+            else:
+                # append to cc_news.jsonl
+                f.write(json.dumps(result, ensure_ascii=False) + "\n")
+            print(f"Extracted book from {url}")
+            continue
         result = extract_html_text(url)
         # check if url is already in cc_news.jsonl
         if url in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():

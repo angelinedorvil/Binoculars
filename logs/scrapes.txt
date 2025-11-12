@@ -1,8 +1,10 @@
-C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:162: SyntaxWarning: invalid escape sequence '\_'
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:211: SyntaxWarning: invalid escape sequence '\_'
   with open("extension\_blogs.jsonl", "a", encoding="utf-8") as f:
-C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:168: SyntaxWarning: invalid escape sequence '\_'
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:217: SyntaxWarning: invalid escape sequence '\_'
   if result["text"] in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
-C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:179: SyntaxWarning: invalid escape sequence '\_'
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:228: SyntaxWarning: invalid escape sequence '\_'
+  if url in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:238: SyntaxWarning: invalid escape sequence '\_'
   if url in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
 URL already exists in blogs.jsonl, skipping: https://kreyol.org/sajes/
 URL already exists in blogs.jsonl, skipping: https://kreyol.org/letife/
@@ -16,3 +18,46 @@ URL already exists in blogs.jsonl, skipping: https://kreyol.org/goudougoudou-pas
 URL already exists in blogs.jsonl, skipping: https://kreyol.org/lanmo-dokte-ernst-mirville-pye-banbou-omaj-jan-mapou/
 URL already exists in blogs.jsonl, skipping: https://kreyol.org/pou-selebre-jounen-entenasyonal-fanm-2021/
 URL already exists in blogs.jsonl, skipping: https://kreyol.org/avi-rekritman-akademisyen-me-2021/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/lalin-ak-soley-sa-w-pi-pito-ak-pascale-millien-faustin/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/alina-pran-nan-sipriz-ak-maude-heurtelou/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/avantaj-selebrasyon-lang-ak-kilti-kreyol-ka-pote-pou-ayiti-ak-michel-ange-hyppolite/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/pwodiksyon-materyel-didaktik-an-kreyol-ak-michel-ange-hyppolite/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/desalin-yon-lez-nan-lavi-anpre-desalin-ak-michel-ange-hyppolite/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/lang-ak-kilti-se-marasa-ak-michel-ange-hyppolite/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/akadedmi-kreyol-ayiti-lang-kreyol-la-se-gadyen-eritaj-kiltirel-nou/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/kreyolizay-pasrel-penti-ak-literati-michel-ange-hyppolite-kaptenn-koukouwouj/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/nou-sonje-bwakayiman-pou-klotire-mwa-dawout-la/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/konpe-filo-file-zev-li-rete-ak-frantz-duval-redakte-anchef-jounal-le-nouvelliste/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/konpe-filo-yon-fos-trankil-ak-michel-ange-hyppolite/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-echanj-sou-dwa-lengwistik-ap-kontinye/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/yon-atik-sou-konferans-montalebert-badio-kersaint-nan-seri-madi-fla-fakilte-lengwistik-aplike-fla/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/pwodiksyon-yon-grame-kreyol-yon-ranmase-ak-michel-ange-hyppolite/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/etazini-pran-dife-gout-dlo-ki-chavire-ve-a-ak-kaptenn/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/ki-lang-tousen-te-pale-ak-pierre-michel-chery/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/alarive-viris-la-ak-gary-daniel/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/fom-pwezi-fantezi/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-pawol-kritik/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-denye-pati/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-3/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-2em-pati/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/bon-fet-sosyete-koukouy-18-desanm-premye-tranch/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/bon-fet-sosyete-koukouy-18-desanm/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/jounen-entenasyonal-lang-matenel-21-fevriye-2020/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/powet-georges-castera-travese-lento-lavi/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/fom-deteminan-la-apre-yon-mo-yon-ti-not-anplis-sou-kesyon-an/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/fom-deteminan-la-apre-yon-mo-echanj-ant-pauris-ak-pierre-michel-2/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/atik-lan-ak-nan/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/moriso/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/mercedes/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/muller/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/martineau-2/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/mirville/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/megie/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/manno/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/hyppolite/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/frantz/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/lemous/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/janmapou/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/brezo/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/espas-aprantisay/
+Extracted book from https://archive.org/stream/tonel/tonel_djvu.txt
