@@ -1,1 +1,18 @@
-Saved 16 poems.
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:162: SyntaxWarning: invalid escape sequence '\_'
+  with open("extension\_blogs.jsonl", "a", encoding="utf-8") as f:
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:168: SyntaxWarning: invalid escape sequence '\_'
+  if result["text"] in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
+C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:179: SyntaxWarning: invalid escape sequence '\_'
+  if url in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/sajes/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/letife/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/komante/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/literatikreyol/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/reka-mete-chapo-ba-pou-10-akademisyen-kreyol-tou-nef/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/vot-teks-kreyol-konstitisyon-1987-la/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-pou-listwa/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/bon-fet-akademi-kreyol-ayisyen/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/goudougoudou-pase-ak-kounye-la-a-enpotans-sante-mantal/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/lanmo-dokte-ernst-mirville-pye-banbou-omaj-jan-mapou/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/pou-selebre-jounen-entenasyonal-fanm-2021/
+URL already exists in blogs.jsonl, skipping: https://kreyol.org/avi-rekritman-akademisyen-me-2021/
