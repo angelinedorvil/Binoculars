@@ -1,63 +1,1135 @@
-C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:211: SyntaxWarning: invalid escape sequence '\_'
-  with open("extension\_blogs.jsonl", "a", encoding="utf-8") as f:
-C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:217: SyntaxWarning: invalid escape sequence '\_'
-  if result["text"] in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
-C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:228: SyntaxWarning: invalid escape sequence '\_'
-  if url in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
-C:\Users\angel\NLP-project\Binoculars\extension\scrape_data.py:238: SyntaxWarning: invalid escape sequence '\_'
-  if url in open("extension\_blogs.jsonl", "r", encoding="utf-8").read():
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/sajes/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/letife/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/komante/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/literatikreyol/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/reka-mete-chapo-ba-pou-10-akademisyen-kreyol-tou-nef/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/vot-teks-kreyol-konstitisyon-1987-la/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-pou-listwa/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/bon-fet-akademi-kreyol-ayisyen/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/goudougoudou-pase-ak-kounye-la-a-enpotans-sante-mantal/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/lanmo-dokte-ernst-mirville-pye-banbou-omaj-jan-mapou/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/pou-selebre-jounen-entenasyonal-fanm-2021/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/avi-rekritman-akademisyen-me-2021/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/lalin-ak-soley-sa-w-pi-pito-ak-pascale-millien-faustin/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/alina-pran-nan-sipriz-ak-maude-heurtelou/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/avantaj-selebrasyon-lang-ak-kilti-kreyol-ka-pote-pou-ayiti-ak-michel-ange-hyppolite/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/pwodiksyon-materyel-didaktik-an-kreyol-ak-michel-ange-hyppolite/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/desalin-yon-lez-nan-lavi-anpre-desalin-ak-michel-ange-hyppolite/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/lang-ak-kilti-se-marasa-ak-michel-ange-hyppolite/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/akadedmi-kreyol-ayiti-lang-kreyol-la-se-gadyen-eritaj-kiltirel-nou/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/kreyolizay-pasrel-penti-ak-literati-michel-ange-hyppolite-kaptenn-koukouwouj/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/nou-sonje-bwakayiman-pou-klotire-mwa-dawout-la/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/konpe-filo-file-zev-li-rete-ak-frantz-duval-redakte-anchef-jounal-le-nouvelliste/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/konpe-filo-yon-fos-trankil-ak-michel-ange-hyppolite/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-echanj-sou-dwa-lengwistik-ap-kontinye/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/yon-atik-sou-konferans-montalebert-badio-kersaint-nan-seri-madi-fla-fakilte-lengwistik-aplike-fla/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/pwodiksyon-yon-grame-kreyol-yon-ranmase-ak-michel-ange-hyppolite/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/etazini-pran-dife-gout-dlo-ki-chavire-ve-a-ak-kaptenn/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/ki-lang-tousen-te-pale-ak-pierre-michel-chery/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/alarive-viris-la-ak-gary-daniel/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/fom-pwezi-fantezi/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-pawol-kritik/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-denye-pati/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-3/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-2em-pati/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/bon-fet-sosyete-koukouy-18-desanm-premye-tranch/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/bon-fet-sosyete-koukouy-18-desanm/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/jounen-entenasyonal-lang-matenel-21-fevriye-2020/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/powet-georges-castera-travese-lento-lavi/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/fom-deteminan-la-apre-yon-mo-yon-ti-not-anplis-sou-kesyon-an/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/fom-deteminan-la-apre-yon-mo-echanj-ant-pauris-ak-pierre-michel-2/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/atik-lan-ak-nan/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/moriso/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/mercedes/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/muller/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/martineau-2/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/mirville/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/megie/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/manno/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/hyppolite/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/frantz/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/lemous/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/janmapou/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/brezo/
-URL already exists in blogs.jsonl, skipping: https://kreyol.org/espas-aprantisay/
-Extracted book from https://archive.org/stream/tonel/tonel_djvu.txt
+Chunked text from https://rezonodwes.com/?p=368765 into 2 chunks.
+Text length 3487 within chunk size, skipping chunking for https://rezonodwes.com/?p=368242.
+Chunked text from https://rezonodwes.com/?p=368098 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=367597 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=366968 into 12 chunks.
+Chunked text from https://rezonodwes.com/?p=365659 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=365343 into 2 chunks.
+Text length 3597 within chunk size, skipping chunking for https://rezonodwes.com/?p=364974.
+Text length 2421 within chunk size, skipping chunking for https://rezonodwes.com/?p=364781.
+Chunked text from https://rezonodwes.com/?p=364765 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=364478 into 2 chunks.
+Text length 3334 within chunk size, skipping chunking for https://rezonodwes.com/?p=363755.
+Chunked text from https://rezonodwes.com/?p=362075 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=361888 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=361031 into 2 chunks.
+Text length 3805 within chunk size, skipping chunking for https://rezonodwes.com/?p=360398.
+Text length 3691 within chunk size, skipping chunking for https://rezonodwes.com/?p=359549.
+Text length 3079 within chunk size, skipping chunking for https://rezonodwes.com/?p=358979.
+Chunked text from https://rezonodwes.com/?p=358793 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=357759 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=357737 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=357376 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=357334 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=356971 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=356807 into 2 chunks.
+Text length 3215 within chunk size, skipping chunking for https://rezonodwes.com/?p=355925.
+Chunked text from https://rezonodwes.com/?p=355864 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=355049 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=354271 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=354246 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=353981 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=353888 into 7 chunks.
+Chunked text from https://rezonodwes.com/?p=353541 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=353087 into 2 chunks.
+Text length 2734 within chunk size, skipping chunking for https://rezonodwes.com/?p=351825.
+Chunked text from https://rezonodwes.com/?p=351181 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=350923 into 3 chunks.
+Text length 3456 within chunk size, skipping chunking for https://rezonodwes.com/?p=348752.
+Text length 2836 within chunk size, skipping chunking for https://rezonodwes.com/?p=348212.
+Chunked text from https://rezonodwes.com/?p=347638 into 2 chunks.
+Text length 3732 within chunk size, skipping chunking for https://rezonodwes.com/?p=347454.
+Chunked text from https://rezonodwes.com/?p=341794 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=340931 into 6 chunks.
+Text length 3657 within chunk size, skipping chunking for https://rezonodwes.com/?p=340761.
+Text length 3367 within chunk size, skipping chunking for https://rezonodwes.com/?p=340033.
+Chunked text from https://rezonodwes.com/?p=338040 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=337158 into 2 chunks.
+Text length 2953 within chunk size, skipping chunking for https://rezonodwes.com/?p=334200.
+Chunked text from https://rezonodwes.com/?p=334136 into 2 chunks.
+Text length 1885 within chunk size, skipping chunking for https://rezonodwes.com/?p=331895.
+Text length 1884 within chunk size, skipping chunking for https://rezonodwes.com/?p=329814.
+Chunked text from https://rezonodwes.com/?p=328182 into 2 chunks.
+Text length 2316 within chunk size, skipping chunking for https://rezonodwes.com/?p=328128.
+Text length 3543 within chunk size, skipping chunking for https://rezonodwes.com/?p=327846.
+Text length 2719 within chunk size, skipping chunking for https://rezonodwes.com/?p=327778.
+Text length 3032 within chunk size, skipping chunking for https://rezonodwes.com/?p=325162.
+Chunked text from https://rezonodwes.com/?p=325004 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=324091 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=323996 into 2 chunks.
+Text length 3130 within chunk size, skipping chunking for https://rezonodwes.com/?p=323676.
+Chunked text from https://rezonodwes.com/?p=322937 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=322932 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=322722 into 2 chunks.
+Text length 2216 within chunk size, skipping chunking for https://rezonodwes.com/?p=322691.
+Text length 2825 within chunk size, skipping chunking for https://rezonodwes.com/?p=322492.
+Chunked text from https://rezonodwes.com/?p=321514 into 2 chunks.
+Text length 2990 within chunk size, skipping chunking for https://rezonodwes.com/?p=320868.
+Text length 2793 within chunk size, skipping chunking for https://rezonodwes.com/?p=320099.
+Text length 3632 within chunk size, skipping chunking for https://rezonodwes.com/?p=319981.
+Chunked text from https://rezonodwes.com/?p=319803 into 2 chunks.
+Text length 2967 within chunk size, skipping chunking for https://rezonodwes.com/?p=319230.
+Chunked text from https://rezonodwes.com/?p=319025 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=318836 into 2 chunks.
+Text length 2960 within chunk size, skipping chunking for https://rezonodwes.com/?p=318507.
+Text length 3148 within chunk size, skipping chunking for https://rezonodwes.com/?p=318293.
+Text length 2700 within chunk size, skipping chunking for https://rezonodwes.com/?p=318209.
+Chunked text from https://rezonodwes.com/?p=317973 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=317791 into 2 chunks.
+Text length 3350 within chunk size, skipping chunking for https://rezonodwes.com/?p=317597.
+Text length 3639 within chunk size, skipping chunking for https://rezonodwes.com/?p=317559.
+Text length 3140 within chunk size, skipping chunking for https://rezonodwes.com/?p=317548.
+Chunked text from https://rezonodwes.com/?p=317526 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=317266 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=317167 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=317099 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=316325 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=315529 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=315280 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=315266 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=315233 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=314848 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=314806 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=314758 into 2 chunks.
+Text length 2641 within chunk size, skipping chunking for https://rezonodwes.com/?p=314703.
+Chunked text from https://rezonodwes.com/?p=314238 into 2 chunks.
+Text length 2335 within chunk size, skipping chunking for https://rezonodwes.com/?p=314178.
+Text length 2484 within chunk size, skipping chunking for https://rezonodwes.com/?p=314155.
+Chunked text from https://rezonodwes.com/?p=314097 into 2 chunks.
+Text length 2710 within chunk size, skipping chunking for https://rezonodwes.com/?p=313989.
+Text length 3541 within chunk size, skipping chunking for https://rezonodwes.com/?p=313294.
+Chunked text from https://rezonodwes.com/?p=313241 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=313112 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=313039 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=312996 into 2 chunks.
+Text length 3373 within chunk size, skipping chunking for https://rezonodwes.com/?p=312989.
+Text length 2470 within chunk size, skipping chunking for https://rezonodwes.com/?p=312914.
+Text length 2522 within chunk size, skipping chunking for https://rezonodwes.com/?p=312727.
+Chunked text from https://rezonodwes.com/?p=312596 into 2 chunks.
+Text length 3758 within chunk size, skipping chunking for https://rezonodwes.com/?p=312582.
+Chunked text from https://rezonodwes.com/?p=312505 into 2 chunks.
+Text length 3129 within chunk size, skipping chunking for https://rezonodwes.com/?p=312451.
+Chunked text from https://rezonodwes.com/?p=311904 into 2 chunks.
+Text length 2924 within chunk size, skipping chunking for https://rezonodwes.com/?p=311876.
+Text length 3036 within chunk size, skipping chunking for https://rezonodwes.com/?p=311436.
+Chunked text from https://rezonodwes.com/?p=310748 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=310409 into 2 chunks.
+Text length 2265 within chunk size, skipping chunking for https://rezonodwes.com/?p=310405.
+Text length 3906 within chunk size, skipping chunking for https://rezonodwes.com/?p=310211.
+Chunked text from https://rezonodwes.com/?p=310062 into 2 chunks.
+Text length 1999 within chunk size, skipping chunking for https://rezonodwes.com/?p=309955.
+Chunked text from https://rezonodwes.com/?p=309874 into 2 chunks.
+Text length 3886 within chunk size, skipping chunking for https://rezonodwes.com/?p=309391.
+Chunked text from https://rezonodwes.com/?p=309162 into 2 chunks.
+Text length 3856 within chunk size, skipping chunking for https://rezonodwes.com/?p=308876.
+Text length 3570 within chunk size, skipping chunking for https://rezonodwes.com/?p=308871.
+Text length 2975 within chunk size, skipping chunking for https://rezonodwes.com/?p=308744.
+Chunked text from https://rezonodwes.com/?p=308680 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=308578 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=308350 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=307852 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=307785 into 4 chunks.
+Text length 3541 within chunk size, skipping chunking for https://rezonodwes.com/?p=307310.
+Text length 3776 within chunk size, skipping chunking for https://rezonodwes.com/?p=307078.
+Text length 3240 within chunk size, skipping chunking for https://rezonodwes.com/?p=306960.
+Text length 3332 within chunk size, skipping chunking for https://rezonodwes.com/?p=306829.
+Chunked text from https://rezonodwes.com/?p=306789 into 2 chunks.
+Text length 2052 within chunk size, skipping chunking for https://rezonodwes.com/?p=306664.
+Chunked text from https://rezonodwes.com/?p=306474 into 2 chunks.
+Text length 2835 within chunk size, skipping chunking for https://rezonodwes.com/?p=306294.
+Text length 2556 within chunk size, skipping chunking for https://rezonodwes.com/?p=305981.
+Text length 2724 within chunk size, skipping chunking for https://rezonodwes.com/?p=305943.
+Chunked text from https://rezonodwes.com/?p=305917 into 3 chunks.
+Text length 2603 within chunk size, skipping chunking for https://rezonodwes.com/?p=305622.
+Text length 3933 within chunk size, skipping chunking for https://rezonodwes.com/?p=305542.
+Chunked text from https://rezonodwes.com/?p=305102 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=304981 into 1 chunks.
+Text length 3148 within chunk size, skipping chunking for https://rezonodwes.com/?p=304913.
+Text length 2225 within chunk size, skipping chunking for https://rezonodwes.com/?p=304853.
+Chunked text from https://rezonodwes.com/?p=304737 into 2 chunks.
+Text length 2347 within chunk size, skipping chunking for https://rezonodwes.com/?p=304681.
+Chunked text from https://rezonodwes.com/?p=304383 into 1 chunks.
+Text length 3901 within chunk size, skipping chunking for https://rezonodwes.com/?p=304314.
+Chunked text from https://rezonodwes.com/?p=304290 into 2 chunks.
+Text length 2524 within chunk size, skipping chunking for https://rezonodwes.com/?p=304195.
+Text length 1844 within chunk size, skipping chunking for https://rezonodwes.com/?p=304149.
+Chunked text from https://rezonodwes.com/?p=304014 into 2 chunks.
+Text length 1840 within chunk size, skipping chunking for https://rezonodwes.com/?p=303311.
+Chunked text from https://rezonodwes.com/?p=303271 into 1 chunks.
+Text length 3860 within chunk size, skipping chunking for https://rezonodwes.com/?p=303195.
+Text length 3895 within chunk size, skipping chunking for https://rezonodwes.com/?p=303020.
+Text length 3084 within chunk size, skipping chunking for https://rezonodwes.com/?p=302868.
+Text length 2168 within chunk size, skipping chunking for https://rezonodwes.com/?p=302588.
+Text length 1830 within chunk size, skipping chunking for https://rezonodwes.com/?p=302489.
+Text length 3999 within chunk size, skipping chunking for https://rezonodwes.com/?p=302401.
+Chunked text from https://rezonodwes.com/?p=302242 into 1 chunks.
+Text length 3861 within chunk size, skipping chunking for https://rezonodwes.com/?p=301243.
+Chunked text from https://rezonodwes.com/?p=301241 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=301210 into 2 chunks.
+Text length 2663 within chunk size, skipping chunking for https://rezonodwes.com/?p=301097.
+Text length 2626 within chunk size, skipping chunking for https://rezonodwes.com/?p=301017.
+Text length 1969 within chunk size, skipping chunking for https://rezonodwes.com/?p=300806.
+Chunked text from https://rezonodwes.com/?p=300749 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=300646 into 2 chunks.
+Text length 2028 within chunk size, skipping chunking for https://rezonodwes.com/?p=300586.
+Text length 3185 within chunk size, skipping chunking for https://rezonodwes.com/?p=299911.
+Text length 3022 within chunk size, skipping chunking for https://rezonodwes.com/?p=299760.
+Chunked text from https://rezonodwes.com/?p=299591 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=299483 into 2 chunks.
+Text length 2467 within chunk size, skipping chunking for https://rezonodwes.com/?p=299230.
+Text length 2522 within chunk size, skipping chunking for https://rezonodwes.com/?p=299241.
+Text length 2054 within chunk size, skipping chunking for https://rezonodwes.com/?p=299067.
+Text length 2476 within chunk size, skipping chunking for https://rezonodwes.com/?p=298836.
+Chunked text from https://rezonodwes.com/?p=298773 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=298300 into 2 chunks.
+Text length 2365 within chunk size, skipping chunking for https://rezonodwes.com/?p=298041.
+Chunked text from https://rezonodwes.com/?p=297506 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=296555 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=296620 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=296469 into 2 chunks.
+Text length 2719 within chunk size, skipping chunking for https://rezonodwes.com/?p=296415.
+Text length 3686 within chunk size, skipping chunking for https://rezonodwes.com/?p=296395.
+Chunked text from https://rezonodwes.com/?p=296385 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=296379 into 2 chunks.
+Text length 2462 within chunk size, skipping chunking for https://rezonodwes.com/?p=296085.
+Text length 2573 within chunk size, skipping chunking for https://rezonodwes.com/?p=296011.
+Text length 2152 within chunk size, skipping chunking for https://rezonodwes.com/?p=295906.
+Chunked text from https://rezonodwes.com/?p=295667 into 2 chunks.
+Text length 2972 within chunk size, skipping chunking for https://rezonodwes.com/?p=295556.
+Text length 2234 within chunk size, skipping chunking for https://rezonodwes.com/?p=295434.
+Text length 2349 within chunk size, skipping chunking for https://rezonodwes.com/?p=295371.
+Chunked text from https://rezonodwes.com/?p=295248 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=295151 into 1 chunks.
+Text length 2792 within chunk size, skipping chunking for https://rezonodwes.com/?p=295113.
+Text length 3471 within chunk size, skipping chunking for https://rezonodwes.com/?p=294592.
+Chunked text from https://rezonodwes.com/?p=294445 into 2 chunks.
+Text length 1956 within chunk size, skipping chunking for https://rezonodwes.com/?p=294341.
+Text length 2146 within chunk size, skipping chunking for https://rezonodwes.com/?p=294286.
+Chunked text from https://rezonodwes.com/?p=294259 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=294136 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=294046 into 2 chunks.
+Text length 3048 within chunk size, skipping chunking for https://rezonodwes.com/?p=293945.
+Chunked text from https://rezonodwes.com/?p=293894 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=293802 into 2 chunks.
+Text length 2779 within chunk size, skipping chunking for https://rezonodwes.com/?p=293542.
+Text length 3966 within chunk size, skipping chunking for https://rezonodwes.com/?p=293536.
+Chunked text from https://rezonodwes.com/?p=293185 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=293027 into 5 chunks.
+Chunked text from https://rezonodwes.com/?p=292943 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=292790 into 1 chunks.
+Text length 3163 within chunk size, skipping chunking for https://rezonodwes.com/?p=292681.
+Text length 3421 within chunk size, skipping chunking for https://rezonodwes.com/?p=292593.
+Chunked text from https://rezonodwes.com/?p=292228 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=292076 into 2 chunks.
+Text length 1940 within chunk size, skipping chunking for https://rezonodwes.com/?p=291913.
+Text length 3290 within chunk size, skipping chunking for https://rezonodwes.com/?p=291896.
+Text length 2034 within chunk size, skipping chunking for https://rezonodwes.com/?p=291880.
+Chunked text from https://rezonodwes.com/?p=291710 into 2 chunks.
+Text length 2177 within chunk size, skipping chunking for https://rezonodwes.com/?p=291599.
+Text length 3692 within chunk size, skipping chunking for https://rezonodwes.com/?p=291314.
+Text length 2432 within chunk size, skipping chunking for https://rezonodwes.com/?p=291275.
+Text length 2909 within chunk size, skipping chunking for https://rezonodwes.com/?p=291230.
+Text length 2919 within chunk size, skipping chunking for https://rezonodwes.com/?p=291164.
+Text length 2404 within chunk size, skipping chunking for https://rezonodwes.com/?p=291009.
+Chunked text from https://rezonodwes.com/?p=290982 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=290910 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=290819 into 2 chunks.
+Text length 3617 within chunk size, skipping chunking for https://rezonodwes.com/?p=290738.
+Text length 3760 within chunk size, skipping chunking for https://rezonodwes.com/?p=290672.
+Chunked text from https://rezonodwes.com/?p=290516 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=290514 into 2 chunks.
+Text length 2150 within chunk size, skipping chunking for https://rezonodwes.com/?p=290501.
+Chunked text from https://rezonodwes.com/?p=290492 into 2 chunks.
+Text length 2323 within chunk size, skipping chunking for https://rezonodwes.com/?p=290472.
+Chunked text from https://rezonodwes.com/?p=290462 into 2 chunks.
+Text length 3326 within chunk size, skipping chunking for https://rezonodwes.com/?p=290438.
+Text length 3594 within chunk size, skipping chunking for https://rezonodwes.com/?p=290380.
+Text length 2695 within chunk size, skipping chunking for https://rezonodwes.com/?p=290367.
+Text length 3064 within chunk size, skipping chunking for https://rezonodwes.com/?p=290340.
+Chunked text from https://rezonodwes.com/?p=290322 into 3 chunks.
+Text length 3777 within chunk size, skipping chunking for https://rezonodwes.com/?p=290286.
+Text length 3334 within chunk size, skipping chunking for https://rezonodwes.com/?p=290224.
+Text length 3018 within chunk size, skipping chunking for https://rezonodwes.com/?p=290219.
+Text length 2915 within chunk size, skipping chunking for https://rezonodwes.com/?p=290167.
+Chunked text from https://rezonodwes.com/?p=289922 into 2 chunks.
+Text length 3489 within chunk size, skipping chunking for https://rezonodwes.com/?p=289924.
+Text length 2785 within chunk size, skipping chunking for https://rezonodwes.com/?p=289858.
+Chunked text from https://rezonodwes.com/?p=289773 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=289671 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=289583 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=289549 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=289317 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=289235 into 2 chunks.
+Text length 2861 within chunk size, skipping chunking for https://rezonodwes.com/?p=289148.
+Text length 1919 within chunk size, skipping chunking for https://rezonodwes.com/?p=289034.
+Chunked text from https://rezonodwes.com/?p=289028 into 1 chunks.
+Text length 1920 within chunk size, skipping chunking for https://rezonodwes.com/?p=288082.
+Chunked text from https://rezonodwes.com/?p=287748 into 2 chunks.
+Text length 3030 within chunk size, skipping chunking for https://rezonodwes.com/?p=287554.
+Text length 2525 within chunk size, skipping chunking for https://rezonodwes.com/?p=287516.
+Text length 2063 within chunk size, skipping chunking for https://rezonodwes.com/?p=286558.
+Text length 2479 within chunk size, skipping chunking for https://rezonodwes.com/?p=283691.
+Chunked text from https://rezonodwes.com/?p=283625 into 2 chunks.
+Text length 3870 within chunk size, skipping chunking for https://rezonodwes.com/?p=283500.
+Chunked text from https://rezonodwes.com/?p=283446 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=282909 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=282294 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=281857 into 2 chunks.
+Text length 3304 within chunk size, skipping chunking for https://rezonodwes.com/?p=281573.
+Chunked text from https://rezonodwes.com/?p=280181 into 2 chunks.
+Text length 2574 within chunk size, skipping chunking for https://rezonodwes.com/?p=279750.
+Text length 2899 within chunk size, skipping chunking for https://rezonodwes.com/?p=279429.
+Text length 2852 within chunk size, skipping chunking for https://rezonodwes.com/?p=278970.
+Text length 3944 within chunk size, skipping chunking for https://rezonodwes.com/?p=278895.
+Chunked text from https://rezonodwes.com/?p=277807 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=276657 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=275720 into 2 chunks.
+Text length 3499 within chunk size, skipping chunking for https://rezonodwes.com/?p=275487.
+Chunked text from https://rezonodwes.com/?p=275278 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=275040 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=274860 into 2 chunks.
+Text length 2311 within chunk size, skipping chunking for https://rezonodwes.com/?p=274824.
+Text length 2784 within chunk size, skipping chunking for https://rezonodwes.com/?p=274670.
+Text length 2928 within chunk size, skipping chunking for https://rezonodwes.com/?p=274616.
+Text length 3258 within chunk size, skipping chunking for https://rezonodwes.com/?p=274337.
+Chunked text from https://rezonodwes.com/?p=273890 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=273383 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=273361 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=273216 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=272827 into 1 chunks.
+Text length 3604 within chunk size, skipping chunking for https://rezonodwes.com/?p=272266.
+Text length 2359 within chunk size, skipping chunking for https://rezonodwes.com/?p=271976.
+Chunked text from https://rezonodwes.com/?p=271710 into 3 chunks.
+Text length 3174 within chunk size, skipping chunking for https://rezonodwes.com/?p=271069.
+Chunked text from https://rezonodwes.com/?p=270905 into 3 chunks.
+Text length 2783 within chunk size, skipping chunking for https://rezonodwes.com/?p=269731.
+Chunked text from https://rezonodwes.com/?p=269233 into 2 chunks.
+Text length 2223 within chunk size, skipping chunking for https://rezonodwes.com/?p=268952.
+Text length 3936 within chunk size, skipping chunking for https://rezonodwes.com/?p=268635.
+Text length 3924 within chunk size, skipping chunking for https://rezonodwes.com/?p=268632.
+Text length 3710 within chunk size, skipping chunking for https://rezonodwes.com/?p=268625.
+Chunked text from https://rezonodwes.com/?p=268507 into 2 chunks.
+Text length 3072 within chunk size, skipping chunking for https://rezonodwes.com/?p=267882.
+Chunked text from https://rezonodwes.com/?p=267611 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=267510 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=267150 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=267135 into 2 chunks.
+Text length 2685 within chunk size, skipping chunking for https://rezonodwes.com/?p=267065.
+Text length 2570 within chunk size, skipping chunking for https://rezonodwes.com/?p=266902.
+Text length 3491 within chunk size, skipping chunking for https://rezonodwes.com/?p=266705.
+Text length 2646 within chunk size, skipping chunking for https://rezonodwes.com/?p=266064.
+Text length 2468 within chunk size, skipping chunking for https://rezonodwes.com/?p=265238.
+Text length 2098 within chunk size, skipping chunking for https://rezonodwes.com/?p=264972.
+Chunked text from https://rezonodwes.com/?p=264869 into 2 chunks.
+Text length 1757 within chunk size, skipping chunking for https://rezonodwes.com/?p=264857.
+Text length 3170 within chunk size, skipping chunking for https://rezonodwes.com/?p=264434.
+Text length 3767 within chunk size, skipping chunking for https://rezonodwes.com/?p=264321.
+Text length 1924 within chunk size, skipping chunking for https://rezonodwes.com/?p=264265.
+Text length 2299 within chunk size, skipping chunking for https://rezonodwes.com/?p=263882.
+Text length 3153 within chunk size, skipping chunking for https://rezonodwes.com/?p=263791.
+Text length 1718 within chunk size, skipping chunking for https://rezonodwes.com/?p=263584.
+Text length 2414 within chunk size, skipping chunking for https://rezonodwes.com/?p=263422.
+Text length 2804 within chunk size, skipping chunking for https://rezonodwes.com/?p=262961.
+Text length 3898 within chunk size, skipping chunking for https://rezonodwes.com/?p=262859.
+Text length 2393 within chunk size, skipping chunking for https://rezonodwes.com/?p=262804.
+Text length 3758 within chunk size, skipping chunking for https://rezonodwes.com/?p=262636.
+Chunked text from https://rezonodwes.com/?p=261595 into 1 chunks.
+Chunked text from https://rezonodwes.com/?p=261573 into 2 chunks.
+Text length 3387 within chunk size, skipping chunking for https://rezonodwes.com/?p=261464.
+Text length 2788 within chunk size, skipping chunking for https://rezonodwes.com/?p=260963.
+Text length 2753 within chunk size, skipping chunking for https://rezonodwes.com/?p=260216.
+Chunked text from https://rezonodwes.com/?p=259523 into 2 chunks.
+Text length 3762 within chunk size, skipping chunking for https://rezonodwes.com/?p=259803.
+Text length 2712 within chunk size, skipping chunking for https://rezonodwes.com/?p=259781.
+Text length 2629 within chunk size, skipping chunking for https://rezonodwes.com/?p=259516.
+Text length 2588 within chunk size, skipping chunking for https://rezonodwes.com/?p=259140.
+Text length 3250 within chunk size, skipping chunking for https://rezonodwes.com/?p=259124.
+Text length 3071 within chunk size, skipping chunking for https://rezonodwes.com/?p=258994.
+Chunked text from https://rezonodwes.com/?p=258800 into 2 chunks.
+Text length 2156 within chunk size, skipping chunking for https://rezonodwes.com/?p=258686.
+Text length 2554 within chunk size, skipping chunking for https://rezonodwes.com/?p=258378.
+Text length 2301 within chunk size, skipping chunking for https://rezonodwes.com/?p=258339.
+Chunked text from https://rezonodwes.com/?p=258041 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=257531 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=254473 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=254444 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=253288 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=253236 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=253071 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=253013 into 2 chunks.
+Text length 2704 within chunk size, skipping chunking for https://rezonodwes.com/?p=252802.
+Text length 3280 within chunk size, skipping chunking for https://rezonodwes.com/?p=252604.
+Text length 3026 within chunk size, skipping chunking for https://rezonodwes.com/?p=252325.
+Text length 2288 within chunk size, skipping chunking for https://rezonodwes.com/?p=251730.
+Chunked text from https://rezonodwes.com/?p=251522 into 2 chunks.
+Text length 3342 within chunk size, skipping chunking for https://rezonodwes.com/?p=250443.
+Text length 3138 within chunk size, skipping chunking for https://rezonodwes.com/?p=249926.
+Text length 2280 within chunk size, skipping chunking for https://rezonodwes.com/?p=248340.
+Text length 3658 within chunk size, skipping chunking for https://rezonodwes.com/?p=248339.
+Chunked text from https://rezonodwes.com/?p=248131 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=245501 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=245476 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=244267 into 2 chunks.
+Text length 2238 within chunk size, skipping chunking for https://rezonodwes.com/?p=243561.
+Text length 3066 within chunk size, skipping chunking for https://rezonodwes.com/?p=243493.
+Chunked text from https://rezonodwes.com/?p=238376 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=237104 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=236828 into 6 chunks.
+Chunked text from https://rezonodwes.com/?p=236612 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=235771 into 2 chunks.
+Text length 3833 within chunk size, skipping chunking for https://rezonodwes.com/?p=235582.
+Chunked text from https://rezonodwes.com/?p=234777 into 4 chunks.
+Text length 2918 within chunk size, skipping chunking for https://rezonodwes.com/?p=234614.
+Chunked text from https://rezonodwes.com/?p=233311 into 3 chunks.
+Chunked text from https://rezonodwes.com/?p=231046 into 2 chunks.
+Text length 3113 within chunk size, skipping chunking for https://rezonodwes.com/?p=228120.
+Text length 1850 within chunk size, skipping chunking for https://rezonodwes.com/?p=223942.
+Chunked text from https://rezonodwes.com/?p=223672 into 3 chunks.
+Text length 3345 within chunk size, skipping chunking for https://rezonodwes.com/?p=223646.
+Chunked text from https://rezonodwes.com/?p=223325 into 2 chunks.
+Chunked text from https://rezonodwes.com/?p=222461 into 3 chunks.
+Text length 2837 within chunk size, skipping chunking for https://rezonodwes.com/?p=220669.
+Text length 2718 within chunk size, skipping chunking for https://rezonodwes.com/?p=219568.
+Text length 1990 within chunk size, skipping chunking for https://rezonodwes.com/?p=218705.
+Text length 2598 within chunk size, skipping chunking for https://rezonodwes.com/?p=218351.
+Chunked text from https://rezonodwes.com/?p=217586 into 2 chunks.
+Text length 1991 within chunk size, skipping chunking for https://rezonodwes.com/?p=217233.
+Text length 2813 within chunk size, skipping chunking for https://rezonodwes.com/?p=217005.
+Chunked text from https://rezonodwes.com/?p=216384 into 3 chunks.
+Text length 2416 within chunk size, skipping chunking for https://rezonodwes.com/?p=214752.
+Text length 2512 within chunk size, skipping chunking for https://rezonodwes.com/?p=213637.
+Text length 2303 within chunk size, skipping chunking for https://rezonodwes.com/?p=213221.
+Chunked text from https://rezonodwes.com/?p=211096 into 2 chunks.
+Text length 2590 within chunk size, skipping chunking for https://rezonodwes.com/?p=210723.
+Chunked text from https://rezonodwes.com/?p=209586 into 8 chunks.
+Text length 1984 within chunk size, skipping chunking for https://rezonodwes.com/?p=208967.
+Text length 2412 within chunk size, skipping chunking for https://rezonodwes.com/?p=208961.
+Text length 2560 within chunk size, skipping chunking for https://rezonodwes.com/?p=208792.
+Text length 2517 within chunk size, skipping chunking for https://rezonodwes.com/?p=208755.
+Chunked text from https://rezonodwes.com/?p=206280 into 1 chunks.
+Text length 3569 within chunk size, skipping chunking for https://rezonodwes.com/?p=208238.
+Chunked text from https://rezonodwes.com/?p=205549 into 2 chunks.
+Text length 3177 within chunk size, skipping chunking for https://rezonodwes.com/?p=203890.
+Text length 2373 within chunk size, skipping chunking for https://rezonodwes.com/?p=203891.
+Text length 3061 within chunk size, skipping chunking for https://rezonodwes.com/?p=203619.
+Chunked text from https://rezonodwes.com/?p=202473 into 1 chunks.
+Text length 3810 within chunk size, skipping chunking for https://rezonodwes.com/?p=199802.
+Text length 3927 within chunk size, skipping chunking for https://rezonodwes.com/?p=198569.
+Chunked text from https://rezonodwes.com/?p=164140 into 1 chunks.
+Text length 3653 within chunk size, skipping chunking for https://rezonodwes.com/?p=144000.
+Text length 3210 within chunk size, skipping chunking for https://rezonodwes.com/?p=137441.
+Chunked text from https://rezonodwes.com/?p=129887 into 2 chunks.
+Text length 2828 within chunk size, skipping chunking for https://rezonodwes.com/?p=37449.
+Text length 715 within chunk size, skipping chunking for https://www.voanouvel.com/a/8011145.html.
+Text length 650 within chunk size, skipping chunking for https://www.voanouvel.com/a/8011179.html.
+Text length 843 within chunk size, skipping chunking for https://www.voanouvel.com/a/8011073.html.
+Text length 668 within chunk size, skipping chunking for https://www.voanouvel.com/a/8011042.html.
+Text length 650 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010010.html.
+Text length 820 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009980.html.
+Text length 655 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008676.html.
+Text length 650 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008683.html.
+Text length 755 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008527.html.
+Text length 760 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008382.html.
+Text length 616 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008227.html.
+Text length 846 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008214.html.
+Chunked text from https://www.voanouvel.com/a/8007251.html into 2 chunks.
+Text length 849 within chunk size, skipping chunking for https://www.voanouvel.com/a/8011167.html.
+Text length 1418 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008424.html.
+Text length 2327 within chunk size, skipping chunking for https://www.voanouvel.com/a/8006906.html.
+Text length 667 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005447.html.
+Text length 487 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005302.html.
+Text length 649 within chunk size, skipping chunking for https://www.voanouvel.com/a/8004821.html.
+Text length 994 within chunk size, skipping chunking for https://www.voanouvel.com/a/8002739.html.
+Text length 1597 within chunk size, skipping chunking for https://www.voanouvel.com/a/8002627.html.
+Text length 1598 within chunk size, skipping chunking for https://www.voanouvel.com/a/8001239.html.
+Text length 430 within chunk size, skipping chunking for https://www.voanouvel.com/a/7997639.html.
+Text length 1596 within chunk size, skipping chunking for https://www.voanouvel.com/a/7997301.html.
+Text length 2414 within chunk size, skipping chunking for https://www.voanouvel.com/a/7995578.html.
+Text length 3028 within chunk size, skipping chunking for https://www.voanouvel.com/a/7993123.html.
+Text length 1971 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010922.html.
+Text length 1136 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010915.html.
+Text length 1375 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010897.html.
+Text length 1384 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010835.html.
+Text length 721 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010832.html.
+Text length 1184 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010824.html.
+Text length 1416 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008481.html.
+Text length 2033 within chunk size, skipping chunking for https://www.voanouvel.com/a/7999338.html.
+Text length 2661 within chunk size, skipping chunking for https://www.voanouvel.com/a/7993137.html.
+Text length 801 within chunk size, skipping chunking for https://www.voanouvel.com/a/7982425.html.
+Text length 1181 within chunk size, skipping chunking for https://www.voanouvel.com/a/7979748.html.
+Text length 842 within chunk size, skipping chunking for https://www.voanouvel.com/a/7979620.html.
+Text length 1236 within chunk size, skipping chunking for https://www.voanouvel.com/a/7962917.html.
+Text length 885 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010845.html.
+Text length 1002 within chunk size, skipping chunking for https://www.voanouvel.com/a/8010852.html.
+Text length 918 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009751.html.
+Text length 1831 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009648.html.
+Text length 920 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008366.html.
+Text length 1034 within chunk size, skipping chunking for https://www.voanouvel.com/a/8006901.html.
+Text length 1120 within chunk size, skipping chunking for https://www.voanouvel.com/a/8006277.html.
+Text length 1003 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005421.html.
+Text length 1096 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005417.html.
+Text length 822 within chunk size, skipping chunking for https://www.voanouvel.com/a/8004819.html.
+Text length 1005 within chunk size, skipping chunking for https://www.voanouvel.com/a/8003042.html.
+Text length 1156 within chunk size, skipping chunking for https://www.voanouvel.com/a/8002479.html.
+Text length 1203 within chunk size, skipping chunking for https://www.voanouvel.com/a/8001734.html.
+Text length 1272 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008556.html.
+Text length 1625 within chunk size, skipping chunking for https://www.voanouvel.com/a/8002856.html.
+Text length 1180 within chunk size, skipping chunking for https://www.voanouvel.com/a/7979732.html.
+Text length 861 within chunk size, skipping chunking for https://www.voanouvel.com/a/7914969.html.
+Text length 1353 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009652.html.
+Text length 1507 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009630.html.
+Text length 731 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009611.html.
+Text length 659 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009607.html.
+Text length 1402 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009591.html.
+Text length 1791 within chunk size, skipping chunking for https://www.voanouvel.com/a/8009582.html.
+Text length 1628 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008545.html.
+Text length 857 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008542.html.
+Text length 737 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008540.html.
+Text length 1417 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008186.html.
+Text length 594 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008132.html.
+Text length 717 within chunk size, skipping chunking for https://www.voanouvel.com/a/8008119.html.
+Text length 1382 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005781.html.
+Text length 1023 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005772.html.
+Chunked text from https://www.voanouvel.com/a/8005753.html into 3 chunks.
+Text length 994 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005492.html.
+Text length 1072 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005406.html.
+Text length 1948 within chunk size, skipping chunking for https://www.voanouvel.com/a/8005258.html.
+Text length 829 within chunk size, skipping chunking for https://www.voanouvel.com/a/8004824.html.
+Text length 1604 within chunk size, skipping chunking for https://www.voanouvel.com/a/8002761.html.
+Text length 812 within chunk size, skipping chunking for https://www.voanouvel.com/a/8002759.html.
+Text length 1172 within chunk size, skipping chunking for https://www.voanouvel.com/a/8002664.html.
+Done. Saved chunked dataset -> extension/chunked_news.jsonl
+Text length 2435 within chunk size, skipping chunking for https://rezonodwes.com/?p=365826.
+Text length 1947 within chunk size, skipping chunking for https://rezonodwes.com/?p=366397.
+Text length 2394 within chunk size, skipping chunking for https://rezonodwes.com/?p=235178.
+Chunked text from https://rezonodwes.com/?p=235273 into 2 chunks.
+Text length 2754 within chunk size, skipping chunking for https://rezonodwes.com/?p=368689.
+Text length 2286 within chunk size, skipping chunking for https://rezonodwes.com/?p=305587.
+Text length 2513 within chunk size, skipping chunking for https://rezonodwes.com/?p=306940.
+Text length 2389 within chunk size, skipping chunking for https://rezonodwes.com/?p=309708.
+Text length 2593 within chunk size, skipping chunking for https://rezonodwes.com/?p=283486.
+Text length 2283 within chunk size, skipping chunking for https://rezonodwes.com/?p=263359.
+Chunked text from https://rezonodwes.com/?p=257293 into 2 chunks.
+Text length 2769 within chunk size, skipping chunking for https://rezonodwes.com/?p=365479.
+Text length 3036 within chunk size, skipping chunking for https://rezonodwes.com/?p=248675.
+Text length 2744 within chunk size, skipping chunking for https://rezonodwes.com/?p=240845.
+Text length 2925 within chunk size, skipping chunking for https://rezonodwes.com/?p=364722.
+Text length 1669 within chunk size, skipping chunking for https://rezonodwes.com/?p=362645.
+Text length 2752 within chunk size, skipping chunking for https://rezonodwes.com/?p=368248.
+Text length 2728 within chunk size, skipping chunking for https://rezonodwes.com/?p=348667.
+Text length 1639 within chunk size, skipping chunking for https://rezonodwes.com/?p=327866.
+Text length 1605 within chunk size, skipping chunking for https://rezonodwes.com/?p=327689.
+Text length 1477 within chunk size, skipping chunking for https://rezonodwes.com/?p=327267.
+Text length 1690 within chunk size, skipping chunking for https://rezonodwes.com/?p=327049.
+Text length 3304 within chunk size, skipping chunking for https://rezonodwes.com/?p=333706.
+Text length 1757 within chunk size, skipping chunking for https://rezonodwes.com/?p=326783.
+Text length 2032 within chunk size, skipping chunking for https://rezonodwes.com/?p=317181.
+Text length 2005 within chunk size, skipping chunking for https://rezonodwes.com/?p=317061.
+Text length 2532 within chunk size, skipping chunking for https://rezonodwes.com/?p=316721.
+Text length 1613 within chunk size, skipping chunking for https://rezonodwes.com/?p=326982.
+Text length 514 within chunk size, skipping chunking for None.
+Text length 267 within chunk size, skipping chunking for None.
+Text length 516 within chunk size, skipping chunking for None.
+Text length 497 within chunk size, skipping chunking for None.
+Text length 334 within chunk size, skipping chunking for None.
+Text length 853 within chunk size, skipping chunking for None.
+Text length 555 within chunk size, skipping chunking for None.
+Text length 492 within chunk size, skipping chunking for None.
+Text length 465 within chunk size, skipping chunking for None.
+Text length 369 within chunk size, skipping chunking for None.
+Text length 428 within chunk size, skipping chunking for None.
+Text length 299 within chunk size, skipping chunking for None.
+Text length 599 within chunk size, skipping chunking for None.
+Text length 425 within chunk size, skipping chunking for None.
+Text length 904 within chunk size, skipping chunking for None.
+Text length 842 within chunk size, skipping chunking for None.
+Text length 810 within chunk size, skipping chunking for None.
+Text length 2093 within chunk size, skipping chunking for None.
+Text length 440 within chunk size, skipping chunking for None.
+Text length 389 within chunk size, skipping chunking for None.
+Text length 1819 within chunk size, skipping chunking for None.
+Text length 729 within chunk size, skipping chunking for None.
+Text length 3167 within chunk size, skipping chunking for None.
+Text length 1697 within chunk size, skipping chunking for None.
+Text length 601 within chunk size, skipping chunking for None.
+Text length 389 within chunk size, skipping chunking for None.
+Text length 472 within chunk size, skipping chunking for None.
+Text length 415 within chunk size, skipping chunking for None.
+Text length 425 within chunk size, skipping chunking for None.
+Text length 549 within chunk size, skipping chunking for None.
+Text length 964 within chunk size, skipping chunking for None.
+Text length 837 within chunk size, skipping chunking for None.
+Text length 243 within chunk size, skipping chunking for None.
+Text length 446 within chunk size, skipping chunking for None.
+Text length 610 within chunk size, skipping chunking for None.
+Text length 435 within chunk size, skipping chunking for None.
+Text length 2237 within chunk size, skipping chunking for None.
+Text length 1480 within chunk size, skipping chunking for None.
+Text length 3225 within chunk size, skipping chunking for None.
+Text length 3182 within chunk size, skipping chunking for None.
+Text length 884 within chunk size, skipping chunking for None.
+Text length 715 within chunk size, skipping chunking for None.
+Text length 1937 within chunk size, skipping chunking for None.
+Text length 839 within chunk size, skipping chunking for None.
+Text length 2506 within chunk size, skipping chunking for None.
+Text length 806 within chunk size, skipping chunking for None.
+Text length 884 within chunk size, skipping chunking for None.
+Text length 494 within chunk size, skipping chunking for None.
+Text length 748 within chunk size, skipping chunking for None.
+Text length 371 within chunk size, skipping chunking for None.
+Text length 1287 within chunk size, skipping chunking for None.
+Text length 652 within chunk size, skipping chunking for None.
+Text length 659 within chunk size, skipping chunking for None.
+Chunked text from None into 5 chunks.
+Text length 3765 within chunk size, skipping chunking for None.
+Text length 3843 within chunk size, skipping chunking for None.
+Text length 1492 within chunk size, skipping chunking for None.
+Text length 1930 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Chunked text from None into 1 chunks.
+Text length 1304 within chunk size, skipping chunking for None.
+Text length 1414 within chunk size, skipping chunking for None.
+Text length 3998 within chunk size, skipping chunking for None.
+Text length 3582 within chunk size, skipping chunking for None.
+Text length 3191 within chunk size, skipping chunking for None.
+Text length 1414 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Text length 3153 within chunk size, skipping chunking for None.
+Text length 3155 within chunk size, skipping chunking for None.
+Text length 3667 within chunk size, skipping chunking for None.
+Text length 3797 within chunk size, skipping chunking for None.
+Text length 1844 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/elksyon.html.
+Text length 2202 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/vodou.php.
+Text length 814 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/lekti.php.
+Text length 3689 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/espwa.html.
+Text length 3133 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Text length 2870 within chunk size, skipping chunking for None.
+Text length 3531 within chunk size, skipping chunking for None.
+Text length 1309 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 1 chunks.
+Chunked text from None into 3 chunks.
+Text length 3806 within chunk size, skipping chunking for None.
+Chunked text from None into 4 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Text length 1898 within chunk size, skipping chunking for None.
+Text length 3201 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/konsyantize.php.
+Chunked text from https://www.potomitan.info/vedrine/oryantasyon.php into 4 chunks.
+Text length 3536 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/maryaj.php.
+Text length 3917 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/dezyem.php.
+Chunked text from https://www.potomitan.info/vedrine/pawoli.php into 2 chunks.
+Text length 3366 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/50.php.
+Chunked text from https://www.potomitan.info/vedrine/demen.php into 3 chunks.
+Chunked text from https://www.potomitan.info/vedrine/malis.php into 2 chunks.
+Chunked text from https://www.potomitan.info/vedrine/diskou.php into 2 chunks.
+Chunked text from https://www.potomitan.info/vedrine/estenvil.php into 4 chunks.
+Chunked text from https://www.potomitan.info/vedrine/pwoveb.php into 2 chunks.
+Chunked text from https://www.potomitan.info/vedrine/pati.php into 3 chunks.
+Chunked text from https://www.potomitan.info/vedrine/teknik.php into 11 chunks.
+Text length 3886 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/okipasyon.php.
+Chunked text from https://www.potomitan.info/vedrine/politik.php into 2 chunks.
+Text length 2886 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/kandida_2006.php.
+Chunked text from https://www.potomitan.info/vedrine/dis_pwen-k.php into 7 chunks.
+Text length 2502 within chunk size, skipping chunking for None.
+Text length 3785 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 3 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Text length 2215 within chunk size, skipping chunking for None.
+Chunked text from None into 3 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from https://www.potomitan.info/vedrine/enfomatize-01.php into 6 chunks.
+Text length 661 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/pwogre.php.
+Chunked text from https://www.potomitan.info/ayiti/seisme_2021d.php into 4 chunks.
+Chunked text from https://www.potomitan.info/vedrine/kapital.php into 2 chunks.
+Chunked text from https://www.potomitan.info/vedrine/rekonstriksyon.php into 5 chunks.
+Text length 1194 within chunk size, skipping chunking for https://www.potomitan.info/vedrine/fanm.html.
+Chunked text from https://www.potomitan.info/vedrine/temporada.php into 2 chunks.
+Text length 495 within chunk size, skipping chunking for None.
+Text length 937 within chunk size, skipping chunking for None.
+Text length 1135 within chunk size, skipping chunking for None.
+Text length 2935 within chunk size, skipping chunking for None.
+Text length 669 within chunk size, skipping chunking for None.
+Text length 3467 within chunk size, skipping chunking for None.
+Text length 1154 within chunk size, skipping chunking for None.
+Text length 446 within chunk size, skipping chunking for None.
+Text length 1577 within chunk size, skipping chunking for None.
+Text length 3319 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Text length 858 within chunk size, skipping chunking for None.
+Text length 3030 within chunk size, skipping chunking for None.
+Text length 1422 within chunk size, skipping chunking for None.
+Text length 1242 within chunk size, skipping chunking for None.
+Text length 1341 within chunk size, skipping chunking for None.
+Chunked text from None into 1 chunks.
+Chunked text from None into 6 chunks.
+Chunked text from None into 3 chunks.
+Chunked text from None into 9 chunks.
+Chunked text from None into 3 chunks.
+Chunked text from None into 3 chunks.
+Chunked text from None into 5 chunks.
+Chunked text from None into 3 chunks.
+Chunked text from None into 8 chunks.
+Text length 353 within chunk size, skipping chunking for None.
+Text length 1579 within chunk size, skipping chunking for None.
+Chunked text from None into 13 chunks.
+Text length 1105 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/agasou.php.
+Text length 634 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/bondye.php.
+Text length 3197 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/andeyo.php.
+Text length 666 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/annela.php.
+Text length 1545 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/jou.php.
+Text length 720 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/chas.php.
+Text length 777 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/etwal.php.
+Text length 1163 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/fleret.php.
+Text length 2408 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/nanchon.php.
+Text length 779 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/tan2.php.
+Text length 761 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/vayan.php.
+Chunked text from https://www.potomitan.info/ayiti/lafontan/jistis.php into 2 chunks.
+Text length 1295 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/kontinyite.php.
+Text length 999 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/lafrik.php.
+Chunked text from https://www.potomitan.info/ayiti/lafontan/lamlamdlo.php into 2 chunks.
+Text length 1850 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/imigran.php.
+Text length 841 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/doudous.php.
+Text length 1451 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/met.php.
+Text length 660 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/g.php.
+Text length 3176 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/papados.php.
+Text length 1375 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/odela.php.
+Text length 545 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/ola.php.
+Text length 2631 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/ginen.php.
+Text length 1308 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/pititfi.php.
+Text length 1293 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/liberasyon.php.
+Text length 3366 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/pwezi.php.
+Text length 1040 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/retou.php.
+Text length 2830 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/sak.php.
+Text length 2624 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/tanmtanm.php.
+Text length 894 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/tulsi.php.
+Text length 2444 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/nasyon.php.
+Text length 836 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/veye.php.
+Text length 2268 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/bombe.php.
+Chunked text from https://www.potomitan.info/ayiti/lafontan/depasmman.php into 2 chunks.
+Chunked text from https://www.potomitan.info/ayiti/lafontan/rekonstriksyon.php into 3 chunks.
+Text length 1269 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/ezili.php.
+Text length 3281 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/manmi.php.
+Text length 1192 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lafontan/tan.php.
+Chunked text from https://www.potomitan.info/ayiti/lafontan/ogounati.php into 5 chunks.
+Chunked text from None into 4 chunks.
+Chunked text from None into 2 chunks.
+Text length 2404 within chunk size, skipping chunking for None.
+Text length 1189 within chunk size, skipping chunking for None.
+Text length 705 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Text length 607 within chunk size, skipping chunking for None.
+Text length 2318 within chunk size, skipping chunking for None.
+Text length 545 within chunk size, skipping chunking for None.
+Text length 2951 within chunk size, skipping chunking for None.
+Text length 1829 within chunk size, skipping chunking for None.
+Text length 518 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Chunked text from None into 2 chunks.
+Text length 619 within chunk size, skipping chunking for None.
+Text length 2057 within chunk size, skipping chunking for None.
+Text length 1533 within chunk size, skipping chunking for None.
+Text length 1810 within chunk size, skipping chunking for None.
+Text length 2476 within chunk size, skipping chunking for None.
+Text length 2294 within chunk size, skipping chunking for None.
+Text length 538 within chunk size, skipping chunking for None.
+Text length 673 within chunk size, skipping chunking for None.
+Text length 746 within chunk size, skipping chunking for None.
+Chunked text from None into 17 chunks.
+Text length 3019 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Text length 1814 within chunk size, skipping chunking for None.
+Text length 2791 within chunk size, skipping chunking for None.
+Text length 2997 within chunk size, skipping chunking for None.
+Text length 3406 within chunk size, skipping chunking for None.
+Text length 3198 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Text length 2929 within chunk size, skipping chunking for None.
+Text length 1550 within chunk size, skipping chunking for None.
+Text length 955 within chunk size, skipping chunking for None.
+Text length 1289 within chunk size, skipping chunking for None.
+Text length 2334 within chunk size, skipping chunking for None.
+Text length 1480 within chunk size, skipping chunking for None.
+Text length 914 within chunk size, skipping chunking for None.
+Text length 808 within chunk size, skipping chunking for None.
+Text length 923 within chunk size, skipping chunking for None.
+Text length 748 within chunk size, skipping chunking for None.
+Text length 1476 within chunk size, skipping chunking for None.
+Text length 337 within chunk size, skipping chunking for None.
+Text length 441 within chunk size, skipping chunking for None.
+Text length 875 within chunk size, skipping chunking for None.
+Text length 414 within chunk size, skipping chunking for None.
+Text length 1100 within chunk size, skipping chunking for None.
+Text length 1579 within chunk size, skipping chunking for None.
+Text length 1343 within chunk size, skipping chunking for None.
+Text length 1637 within chunk size, skipping chunking for None.
+Text length 1268 within chunk size, skipping chunking for None.
+Text length 834 within chunk size, skipping chunking for None.
+Text length 714 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dlo.php.
+Text length 683 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/lapli.php.
+Text length 428 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 491 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 267 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 435 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 481 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 459 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 371 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 652 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 709 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 272 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 98 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 312 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 254 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 267 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 199 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 223 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 168 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 316 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 625 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 253 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 359 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 471 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 588 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 380 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 268 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 423 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 460 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 370 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 675 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 418 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 171 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 258 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 183 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 511 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 205 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 531 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 484 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 295 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 349 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 298 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 97 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 132 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 310 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 305 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 345 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 305 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 578 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 235 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 402 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 141 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 396 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 675 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 600 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 300 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 342 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 490 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 509 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 588 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 582 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/dosmas.php.
+Text length 961 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/delphonse/douvanjou.php.
+Chunked text from https://www.potomitan.info/ayiti/ayiti12.php#anmwe into 2 chunks.
+Chunked text from https://www.potomitan.info/ayiti/ayiti12.php#anmwe into 2 chunks.
+Chunked text from https://www.potomitan.info/ayiti/ayiti12.php#anmwe into 9 chunks.
+Text length 1490 within chunk size, skipping chunking for None.
+Text length 1009 within chunk size, skipping chunking for None.
+Text length 469 within chunk size, skipping chunking for None.
+Text length 438 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/baron.php.
+Text length 393 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/baron.php.
+Text length 122 within chunk size, skipping chunking for None.
+Text length 806 within chunk size, skipping chunking for None.
+Text length 1270 within chunk size, skipping chunking for None.
+Chunked text from https://www.potomitan.info/ayiti/juste_jonel/kisa.php into 2 chunks.
+Text length 538 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/eleksyon.php.
+Text length 1169 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/yanick.php.
+Text length 784 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/jwe.php.
+Text length 1498 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/pataswel.php.
+Text length 3515 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/priye.php.
+Text length 995 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/renmen.php.
+Text length 1060 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/lanati.php.
+Text length 901 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/joseph/tande.php.
+Text length 2043 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/fils-aime/angelou.php.
+Text length 611 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/fils-aime/te.php.
+Text length 623 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/fils-aime/vandredi_sen.php.
+Text length 678 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/fils-aime/kased.php.
+Text length 577 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/fils-aime/choun.php.
+Text length 707 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/derosier/fanm.php.
+Text length 802 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/derosier/manman.php.
+Chunked text from https://www.potomitan.info/ayiti/curvinglines/kreyol.php into 2 chunks.
+Text length 2714 within chunk size, skipping chunking for https://www.potomitan.info/ayiti/curvinglines/lengwistik.php.
+Chunked text from https://www.potomitan.info/ayiti/curvinglines/nou.php into 1 chunks.
+Chunked text from https://www.potomitan.info/ayiti/curvinglines/sevel.php into 2 chunks.
+Text length 325 within chunk size, skipping chunking for None.
+Text length 658 within chunk size, skipping chunking for None.
+Text length 536 within chunk size, skipping chunking for None.
+Text length 469 within chunk size, skipping chunking for None.
+Text length 309 within chunk size, skipping chunking for None.
+Text length 147 within chunk size, skipping chunking for None.
+Text length 158 within chunk size, skipping chunking for None.
+Text length 108 within chunk size, skipping chunking for None.
+Text length 1306 within chunk size, skipping chunking for None.
+Text length 1613 within chunk size, skipping chunking for None.
+Text length 1908 within chunk size, skipping chunking for None.
+Text length 2590 within chunk size, skipping chunking for None.
+Text length 3187 within chunk size, skipping chunking for None.
+Text length 3169 within chunk size, skipping chunking for None.
+Text length 720 within chunk size, skipping chunking for None.
+Text length 825 within chunk size, skipping chunking for None.
+Text length 299 within chunk size, skipping chunking for None.
+Text length 728 within chunk size, skipping chunking for None.
+Text length 713 within chunk size, skipping chunking for None.
+Text length 713 within chunk size, skipping chunking for None.
+Text length 506 within chunk size, skipping chunking for None.
+Text length 479 within chunk size, skipping chunking for None.
+Text length 350 within chunk size, skipping chunking for None.
+Text length 609 within chunk size, skipping chunking for None.
+Text length 663 within chunk size, skipping chunking for None.
+Text length 807 within chunk size, skipping chunking for None.
+Text length 376 within chunk size, skipping chunking for None.
+Text length 351 within chunk size, skipping chunking for None.
+Text length 298 within chunk size, skipping chunking for None.
+Text length 703 within chunk size, skipping chunking for None.
+Text length 699 within chunk size, skipping chunking for None.
+Text length 293 within chunk size, skipping chunking for None.
+Text length 574 within chunk size, skipping chunking for None.
+Text length 864 within chunk size, skipping chunking for None.
+Text length 1322 within chunk size, skipping chunking for None.
+Text length 603 within chunk size, skipping chunking for None.
+Text length 487 within chunk size, skipping chunking for None.
+Text length 325 within chunk size, skipping chunking for None.
+Text length 1056 within chunk size, skipping chunking for None.
+Text length 604 within chunk size, skipping chunking for None.
+Text length 722 within chunk size, skipping chunking for None.
+Text length 1027 within chunk size, skipping chunking for None.
+Text length 868 within chunk size, skipping chunking for None.
+Text length 496 within chunk size, skipping chunking for None.
+Text length 776 within chunk size, skipping chunking for None.
+Text length 3410 within chunk size, skipping chunking for None.
+Text length 2329 within chunk size, skipping chunking for None.
+Text length 789 within chunk size, skipping chunking for None.
+Text length 1022 within chunk size, skipping chunking for None.
+Text length 288 within chunk size, skipping chunking for None.
+Text length 310 within chunk size, skipping chunking for None.
+Text length 543 within chunk size, skipping chunking for None.
+Text length 588 within chunk size, skipping chunking for None.
+Text length 1052 within chunk size, skipping chunking for None.
+Text length 647 within chunk size, skipping chunking for None.
+Text length 311 within chunk size, skipping chunking for None.
+Text length 951 within chunk size, skipping chunking for None.
+Text length 487 within chunk size, skipping chunking for None.
+Text length 947 within chunk size, skipping chunking for None.
+Text length 378 within chunk size, skipping chunking for None.
+Text length 508 within chunk size, skipping chunking for None.
+Text length 661 within chunk size, skipping chunking for None.
+Text length 624 within chunk size, skipping chunking for None.
+Text length 528 within chunk size, skipping chunking for None.
+Text length 285 within chunk size, skipping chunking for None.
+Text length 444 within chunk size, skipping chunking for None.
+Text length 389 within chunk size, skipping chunking for None.
+Text length 446 within chunk size, skipping chunking for None.
+Text length 530 within chunk size, skipping chunking for None.
+Chunked text from None into 2 chunks.
+Text length 382 within chunk size, skipping chunking for None.
+Text length 651 within chunk size, skipping chunking for None.
+Text length 292 within chunk size, skipping chunking for None.
+Text length 318 within chunk size, skipping chunking for None.
+Text length 436 within chunk size, skipping chunking for None.
+Text length 541 within chunk size, skipping chunking for None.
+Text length 524 within chunk size, skipping chunking for None.
+Text length 1215 within chunk size, skipping chunking for None.
+Text length 360 within chunk size, skipping chunking for None.
+Text length 497 within chunk size, skipping chunking for None.
+Text length 534 within chunk size, skipping chunking for None.
+Text length 362 within chunk size, skipping chunking for None.
+Text length 602 within chunk size, skipping chunking for None.
+Text length 464 within chunk size, skipping chunking for None.
+Text length 414 within chunk size, skipping chunking for None.
+Text length 562 within chunk size, skipping chunking for None.
+Text length 407 within chunk size, skipping chunking for None.
+Text length 415 within chunk size, skipping chunking for None.
+Text length 931 within chunk size, skipping chunking for None.
+Text length 973 within chunk size, skipping chunking for None.
+Text length 727 within chunk size, skipping chunking for None.
+Text length 818 within chunk size, skipping chunking for None.
+Text length 664 within chunk size, skipping chunking for None.
+Text length 852 within chunk size, skipping chunking for None.
+Text length 1033 within chunk size, skipping chunking for None.
+Text length 1138 within chunk size, skipping chunking for None.
+Text length 884 within chunk size, skipping chunking for None.
+Text length 920 within chunk size, skipping chunking for None.
+Text length 797 within chunk size, skipping chunking for None.
+Text length 948 within chunk size, skipping chunking for None.
+Text length 554 within chunk size, skipping chunking for None.
+Text length 572 within chunk size, skipping chunking for None.
+Text length 498 within chunk size, skipping chunking for None.
+Text length 490 within chunk size, skipping chunking for None.
+Text length 614 within chunk size, skipping chunking for None.
+Text length 446 within chunk size, skipping chunking for None.
+Text length 837 within chunk size, skipping chunking for None.
+Text length 1653 within chunk size, skipping chunking for None.
+Text length 2125 within chunk size, skipping chunking for None.
+Text length 788 within chunk size, skipping chunking for None.
+Text length 1993 within chunk size, skipping chunking for None.
+Text length 1333 within chunk size, skipping chunking for None.
+Text length 519 within chunk size, skipping chunking for None.
+Text length 2095 within chunk size, skipping chunking for None.
+Chunked text from None into 28 chunks.
+Text length 644 within chunk size, skipping chunking for None.
+Text length 471 within chunk size, skipping chunking for None.
+Text length 289 within chunk size, skipping chunking for None.
+Text length 516 within chunk size, skipping chunking for None.
+Chunked text from None into 10 chunks.
+Text length 325 within chunk size, skipping chunking for None.
+Text length 355 within chunk size, skipping chunking for None.
+Text length 970 within chunk size, skipping chunking for None.
+Text length 403 within chunk size, skipping chunking for None.
+Text length 1080 within chunk size, skipping chunking for None.
+Text length 271 within chunk size, skipping chunking for None.
+Text length 507 within chunk size, skipping chunking for None.
+Chunked text from None into 29 chunks.
+Done. Saved chunked dataset -> extension/chunked_essays.jsonl
+Chunked text from https://kreyol.org/sajes/ into 3 chunks.
+Chunked text from https://kreyol.org/letife/ into 6 chunks.
+Chunked text from https://kreyol.org/komante/ into 10 chunks.
+Chunked text from https://kreyol.org/literatikreyol/ into 3 chunks.
+Chunked text from https://kreyol.org/reka-mete-chapo-ba-pou-10-akademisyen-kreyol-tou-nef/ into 2 chunks.
+Chunked text from https://kreyol.org/vot-teks-kreyol-konstitisyon-1987-la/ into 2 chunks.
+Chunked text from https://kreyol.org/sosyete-koukouy-an-aksyon-pou-listwa/ into 2 chunks.
+Chunked text from https://kreyol.org/bon-fet-akademi-kreyol-ayisyen/ into 1 chunks.
+Chunked text from https://kreyol.org/goudougoudou-pase-ak-kounye-la-a-enpotans-sante-mantal/ into 3 chunks.
+Text length 1626 within chunk size, skipping chunking for https://kreyol.org/lanmo-dokte-ernst-mirville-pye-banbou-omaj-jan-mapou/.
+Text length 1554 within chunk size, skipping chunking for https://kreyol.org/pou-selebre-jounen-entenasyonal-fanm-2021/.
+Text length 2057 within chunk size, skipping chunking for https://kreyol.org/avi-rekritman-akademisyen-me-2021/.
+Text length 3082 within chunk size, skipping chunking for https://kreyol.org/lalin-ak-soley-sa-w-pi-pito-ak-pascale-millien-faustin/.
+Chunked text from https://kreyol.org/alina-pran-nan-sipriz-ak-maude-heurtelou/ into 2 chunks.
+Chunked text from https://kreyol.org/avantaj-selebrasyon-lang-ak-kilti-kreyol-ka-pote-pou-ayiti-ak-michel-ange-hyppolite/ into 2 chunks.
+Chunked text from https://kreyol.org/pwodiksyon-materyel-didaktik-an-kreyol-ak-michel-ange-hyppolite/ into 2 chunks.
+Chunked text from https://kreyol.org/desalin-yon-lez-nan-lavi-anpre-desalin-ak-michel-ange-hyppolite/ into 2 chunks.
+Chunked text from https://kreyol.org/lang-ak-kilti-se-marasa-ak-michel-ange-hyppolite/ into 2 chunks.
+Text length 3971 within chunk size, skipping chunking for https://kreyol.org/akadedmi-kreyol-ayiti-lang-kreyol-la-se-gadyen-eritaj-kiltirel-nou/.
+Chunked text from https://kreyol.org/kreyolizay-pasrel-penti-ak-literati-michel-ange-hyppolite-kaptenn-koukouwouj/ into 3 chunks.
+Text length 3725 within chunk size, skipping chunking for https://kreyol.org/nou-sonje-bwakayiman-pou-klotire-mwa-dawout-la/.
+Chunked text from https://kreyol.org/konpe-filo-file-zev-li-rete-ak-frantz-duval-redakte-anchef-jounal-le-nouvelliste/ into 2 chunks.
+Chunked text from https://kreyol.org/konpe-filo-yon-fos-trankil-ak-michel-ange-hyppolite/ into 2 chunks.
+Chunked text from https://kreyol.org/sosyete-koukouy-an-aksyon-echanj-sou-dwa-lengwistik-ap-kontinye/ into 2 chunks.
+Chunked text from https://kreyol.org/yon-atik-sou-konferans-montalebert-badio-kersaint-nan-seri-madi-fla-fakilte-lengwistik-aplike-fla/ into 3 chunks.
+Chunked text from https://kreyol.org/pwodiksyon-yon-grame-kreyol-yon-ranmase-ak-michel-ange-hyppolite/ into 4 chunks.
+Chunked text from https://kreyol.org/etazini-pran-dife-gout-dlo-ki-chavire-ve-a-ak-kaptenn/ into 2 chunks.
+Chunked text from https://kreyol.org/ki-lang-tousen-te-pale-ak-pierre-michel-chery/ into 6 chunks.
+Text length 1678 within chunk size, skipping chunking for https://kreyol.org/alarive-viris-la-ak-gary-daniel/.
+Chunked text from https://kreyol.org/fom-pwezi-fantezi/ into 2 chunks.
+Chunked text from https://kreyol.org/sosyete-koukouy-an-aksyon-pawol-kritik/ into 2 chunks.
+Chunked text from https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-denye-pati/ into 2 chunks.
+Text length 2299 within chunk size, skipping chunking for https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-3/.
+Text length 3487 within chunk size, skipping chunking for https://kreyol.org/sosyete-koukouy-an-aksyon-bon-fet-sosyete-koukouy-2em-pati/.
+Text length 2580 within chunk size, skipping chunking for https://kreyol.org/bon-fet-sosyete-koukouy-18-desanm-premye-tranch/.
+Text length 1620 within chunk size, skipping chunking for https://kreyol.org/bon-fet-sosyete-koukouy-18-desanm/.
+Text length 3743 within chunk size, skipping chunking for https://kreyol.org/jounen-entenasyonal-lang-matenel-21-fevriye-2020/.
+Text length 2933 within chunk size, skipping chunking for https://kreyol.org/powet-georges-castera-travese-lento-lavi/.
+Chunked text from https://kreyol.org/fom-deteminan-la-apre-yon-mo-yon-ti-not-anplis-sou-kesyon-an/ into 2 chunks.
+Chunked text from https://kreyol.org/fom-deteminan-la-apre-yon-mo-echanj-ant-pauris-ak-pierre-michel-2/ into 1 chunks.
+Chunked text from https://kreyol.org/atik-lan-ak-nan/ into 1 chunks.
+Chunked text from https://kreyol.org/moriso/ into 12 chunks.
+Chunked text from https://kreyol.org/mercedes/ into 5 chunks.
+Chunked text from https://kreyol.org/muller/ into 4 chunks.
+Chunked text from https://kreyol.org/martineau-2/ into 5 chunks.
+Chunked text from https://kreyol.org/megie/ into 6 chunks.
+Chunked text from https://kreyol.org/manno/ into 3 chunks.
+Chunked text from https://kreyol.org/hyppolite/ into 9 chunks.
+Chunked text from https://kreyol.org/frantz/ into 10 chunks.
+Chunked text from https://kreyol.org/lemous/ into 6 chunks.
+Chunked text from https://kreyol.org/janmapou/ into 6 chunks.
+Chunked text from https://kreyol.org/brezo/ into 5 chunks.
+Chunked text from https://kreyol.org/espas-aprantisay/ into 7 chunks.
+Chunked text from https://archive.org/stream/tonel/tonel_djvu.txt into 18 chunks.
+Chunked text from https://archive.org/stream/tanbou-liberasyon/tanbou%20liberasyon_djvu.txt into 31 chunks.
+Chunked text from https://archive.org/stream/fanm-je-klere/fanm%20je%20klere_djvu.txt into 21 chunks.
+Text length 2703 within chunk size, skipping chunking for https://archive.org/stream/manje-lakansyel/manje%20lakansyel_djvu.txt.
+Chunked text from https://archive.org/stream/kanmizol/kanmizol_djvu.txt into 13 chunks.
+Chunked text from https://archive.org/stream/akademi-kreyol/akademi%20kreyol_djvu.txt into 205 chunks.
+Chunked text from https://archive.org/stream/inivesite/inivesite_djvu.txt into 29 chunks.
+Chunked text from https://archive.org/stream/pa-bliye-1804/Pa%20bliye%201804_djvu.txt into 198 chunks.
+Chunked text from https://archive.org/stream/pawolitik/pawolitik_djvu.txt into 14 chunks.
+Chunked text from https://archive.org/stream/manual-kreyol/manual%20kreyol_djvu.txt into 110 chunks.
+Chunked text from https://archive.org/stream/chenn-yo-kase/chenn%20yo%20kase_djvu.txt into 10 chunks.
+Chunked text from https://archive.org/stream/poetry-in-haitian-creole/poetry%20in%20haitian%20creole_djvu.txt into 15 chunks.
+Chunked text from https://archive.org/stream/Plidetwal/plidetwal%20%28no%20front%20cover%29_djvu.txt into 3 chunks.
+Chunked text from https://archive.org/stream/dlo-se-lavi/dlo%20se%20lavi_djvu.txt into 11 chunks.
+Chunked text from https://archive.org/stream/dyakout-1-2-3-4/dyakout%201%2C%202%2C%203%2C%204_djvu.txt into 25 chunks.
+Chunked text from https://archive.org/stream/ysl-of/YSL%20of_djvu.txt into 66 chunks.
+Chunked text from https://archive.org/stream/bese-triye/bese%20triye_djvu.txt into 9 chunks.
+Chunked text from https://archive.org/stream/pise-gaye/pise-gaye_djvu.txt into 8 chunks.
+Chunked text from https://archive.org/stream/bel-bel/bel%20bel_djvu.txt into 4 chunks.
+Chunked text from https://archive.org/stream/prizonye-jakmel-la/Prizonye%20Jakm%C3%A8l%20la_djvu.txt into 17 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-x/ansiklopedi%20x_djvu.txt into 39 chunks.
+Chunked text from https://archive.org/stream/men-lafrik/men%20lafrik_djvu.txt into 15 chunks.
+Chunked text from https://archive.org/stream/dis-pa-nan-lang-ayisyen-an/dis%20pa%20nan%20lang%20ayisyen-an_djvu.txt into 27 chunks.
+Chunked text from https://archive.org/stream/monte-mon/monte%20m%C3%B2n_djvu.txt into 3 chunks.
+Chunked text from https://archive.org/stream/ti-liv-konpreyansyon/ti%20liv%20konpreyansyon_djvu.txt into 13 chunks.
+Chunked text from https://archive.org/stream/etap-nan-lavi-moun/etap%20nan%20lavi%20moun_djvu.txt into 14 chunks.
+Chunked text from https://archive.org/stream/sou-travaye/Sou%20Travay%C3%A8%20Agrik%C3%B2l%20yo%20nan%20peyi%20a_djvu.txt into 24 chunks.
+Chunked text from https://archive.org/stream/grame-deskriptif/grame%20deskriptif_djvu.txt into 59 chunks.
+Chunked text from https://archive.org/stream/pawol-lakay/pawol%20lakay_djvu.txt into 204 chunks.
+Chunked text from https://archive.org/stream/grame-kreyol-vedrine/grame%20kreyol%20vedrine_djvu.txt into 133 chunks.
+Chunked text from https://archive.org/stream/mozayik/mozayik_djvu.txt into 86 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-8/ansiklopedi%208_djvu.txt into 22 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-5/ansiklopedi%205_djvu.txt into 20 chunks.
+Chunked text from https://archive.org/stream/ti-fi-ki/ti%20fi%20ki_djvu.txt into 3 chunks.
+Chunked text from https://archive.org/stream/gen-pawol/gen-pawol_djvu.txt into 72 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-6/ansiklopedi%206_djvu.txt into 22 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-3/ansiklopedi%203_djvu.txt into 21 chunks.
+Chunked text from https://archive.org/stream/nan-non/nan-non_djvu.txt into 83 chunks.
+Chunked text from https://archive.org/stream/Tripotay/Tripotay_djvu.txt into 12 chunks.
+Chunked text from https://archive.org/stream/Adelina/Adelina_djvu.txt into 83 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-2/ansiklopedi-2_djvu.txt into 21 chunks.
+Chunked text from https://archive.org/stream/aprann-rinmin/aprann%20rinmin_djvu.txt into 16 chunks.
+Chunked text from https://archive.org/stream/dyabet/dyabet_djvu.txt into 11 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-7/ansiklopedi%207_djvu.txt into 24 chunks.
+Chunked text from https://archive.org/stream/ann-reflechi-sou-lang-nou-pale-a/Ann%20reflechi%20sou%20lang%20nou%20pale%20a_djvu.txt into 11 chunks.
+Chunked text from https://archive.org/stream/vivans-vwayans-souvnans/Vivans%2C%20Vwayans%2C%20Souvnans_djvu.txt into 93 chunks.
+Chunked text from https://archive.org/stream/sekanaval/sekanaval_djvu.txt into 2 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-9/ansiklopedi%209_djvu.txt into 22 chunks.
+Chunked text from https://archive.org/stream/masuife/masuife_djvu.txt into 22 chunks.
+Chunked text from https://archive.org/stream/tonton-libin/tonton-libin_djvu.txt into 17 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-1/ansiklopedi-1_djvu.txt into 23 chunks.
+Chunked text from https://archive.org/stream/nehanda-vera/nehanda-vera_djvu.txt into 50 chunks.
+Chunked text from https://archive.org/stream/chapo-nau/chapo-nau_djvu.txt into 38 chunks.
+Chunked text from https://archive.org/stream/koule-mov-la/Koul%C3%A8%20Mov%20La_djvu.txt into 123 chunks.
+Chunked text from https://archive.org/stream/goudougoudou/goudougoudou_djvu.txt into 30 chunks.
+Chunked text from https://archive.org/stream/wol-vodou-nan-bwa-kayiman/wol%20vodou%20nan%20bwa%20kayiman_djvu.txt into 12 chunks.
+Chunked text from https://archive.org/stream/soutyen-psikolojik/Soutyen%20Psikolojik_djvu.txt into 29 chunks.
+Chunked text from https://archive.org/stream/tontongi/tontongi_djvu.txt into 78 chunks.
+Chunked text from https://archive.org/stream/nan-yon-bat-je/Nan%20Yon%20Bat%20Je_djvu.txt into 95 chunks.
+Chunked text from https://archive.org/stream/materyel-edikatif/materyel%20edikatif_djvu.txt into 69 chunks.
+Chunked text from https://archive.org/stream/ansiklopedi-4/ansiklopedi%204_djvu.txt into 22 chunks.
+Chunked text from https://archive.org/stream/endepandans/endepandans_djvu.txt into 13 chunks.
+Chunked text from https://archive.org/stream/mwen-konnen/Mwen%20Konnen%20Poukisa%20Zwazo%20ki%20nan%20kal%C3%B2j%20la%20ap%20chante_djvu.txt into 118 chunks.
+Chunked text from https://archive.org/stream/yon-g/yon%20g_djvu.txt into 23 chunks.
+Chunked text from https://archive.org/stream/lagoni-yon-foumi/lagoni%20yon%20foumi_djvu.txt into 67 chunks.
+Chunked text from https://archive.org/stream/kreyol-science/kreyol%20science_djvu.txt into 22 chunks.
+Chunked text from https://archive.org/stream/konpe-jeneral-soley/konpe-jeneral-soley_djvu.txt into 136 chunks.
+Chunked text from https://archive.org/stream/souvnans/souvnans_djvu.txt into 92 chunks.
+Chunked text from https://archive.org/stream/ti-istwa/ti%20istwa_djvu.txt into 25 chunks.
+Chunked text from https://archive.org/stream/sezon-sechres-ayiti/Sezon%20Sechr%C3%A8s%20Ayiti_djvu.txt into 75 chunks.
+Chunked text from https://archive.org/stream/mwendamoupouvava/mwendamoupouvava_djvu.txt into 2 chunks.
+Chunked text from https://archive.org/stream/istoua/istoua_djvu.txt into 72 chunks.
+Chunked text from https://archive.org/stream/prenses-maniya/Prens%C3%A8s%20Maniya_djvu.txt into 3 chunks.
+Chunked text from https://archive.org/stream/ong-ki-gouvenman-ou-ye/ONG%2C%20ki%20gouvenman%20ou%20ye_djvu.txt into 27 chunks.
+Chunked text from https://archive.org/stream/natali_woman/natali_woman_djvu.txt into 42 chunks.
+Chunked text from https://archive.org/stream/1st-diksyone/1st%20diksyone%202me_djvu.txt into 3 chunks.
+Chunked text from https://archive.org/stream/diksyone-medikal/diksyone%20medikal_djvu.txt into 37 chunks.
+Chunked text from https://archive.org/stream/ente-opd/ente%20opd_djvu.txt into 46 chunks.
+Chunked text from https://archive.org/stream/papadok/papadok_djvu.txt into 218 chunks.
+Done. Saved chunked dataset -> extension/chunked_blogs.jsonl
