@@ -11,6 +11,13 @@ from datasets import Dataset, logging as datasets_logging
 import numpy as np
 from sklearn import metrics
 
+# Prevent pickling of HF models (fixes Falcon recursive self-reference crash)
+import transformers
+
+transformers.modeling_utils.PreTrainedModel.__getstate__ = lambda self: {}
+transformers.modeling_utils.PreTrainedModel.__setstate__ = lambda self, state: None
+
+
 
 def main(args):
     # Initialize Binoculars (experiments in paper use the "accuracy" mode threshold wherever applicable)
