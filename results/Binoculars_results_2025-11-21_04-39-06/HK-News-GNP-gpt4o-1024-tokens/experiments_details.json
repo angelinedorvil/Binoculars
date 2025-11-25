@@ -1,0 +1,13 @@
+{
+    "dataset_path": "datasets/core/hk_news/news_gpt4o.jsonl",
+    "dataset_name": "HK-News-GNP",
+    "human_sample_key": "text",
+    "machine_sample_key": "gpt4o_no_prompt",
+    "machine_text_source": "gpt4o",
+    "tokens_seen": 1024,
+    "batch_size": 2,
+    "job_name": "HK-News-GNP-gpt4o-1024-tokens",
+    "start_time": "03:30AM on November 21, 2025",
+    "experiment_path": "results/HK-News-GNP-gpt4o-1024-tokens",
+    "end_time": "04:02AM on November 21, 2025"
+}

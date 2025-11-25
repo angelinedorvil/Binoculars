@@ -2,8 +2,8 @@ import json
 import datetime
 from essays_titles import essays_titles
 
-TEXT_FILE = "extension/essays2.txt"        # path to your text file
-OUTPUT_FILE = "extension/essays.jsonl"  # where we append JSONL
+TEXT_FILE = "extension/essays2.txt"        
+OUTPUT_FILE = "extension/essays.jsonl"  
 TITLES = essays_titles
 
 def load_existing_titles(path):
@@ -61,7 +61,6 @@ def extract_poems(text, titles):
 # MAIN
 # ---------------------------------------------------
 
-# Load entire text file
 with open(TEXT_FILE, "r", encoding="utf-8") as f:
     raw_text = f.read()
 

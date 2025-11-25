@@ -1,0 +1,13 @@
+{
+    "dataset_path": "datasets/core/hk_essays/essays_aya101.jsonl",
+    "dataset_name": "HK-essays-ANP",
+    "human_sample_key": "text",
+    "machine_sample_key": "aya101_no_prompt",
+    "machine_text_source": "Aya101",
+    "tokens_seen": 1024,
+    "batch_size": 2,
+    "job_name": "HK-essays-ANP-Aya101-1024-tokens",
+    "start_time": "06:07PM on November 20, 2025",
+    "experiment_path": "results/HK-essays-ANP-Aya101-1024-tokens",
+    "end_time": "06:13PM on November 20, 2025"
+}

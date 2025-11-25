@@ -1,79 +1,104 @@
-# <img src="./assets/bino-logo.svg" width=40 style="padding-top: 0px"/>  Binoculars: Zero-Shot Detection of LLM-Generated Text [[paper]](https://arxiv.org/abs/2401.12070)[[demo]](https://huggingface.co/spaces/tomg-group-umd/Binoculars)
+# Reproducibility & Extension Study of *Binoculars*: Zero-Shot Detection of LLM-Generated Text
+
+This repository contains the implementation and analysis for the **reproducibility study** of  
+*“Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text” (Hans et al., 2024)*  
+and an **extension experiment in a low-resource language (Haitian Creole).**
 
 <p align="center">
-  <img src="assets/binoculars.jpg" width="300" height="300" alt="ool Binoculars with Falcon on Top">
+  <img src="./assets/binoculars.jpg" width="300" height="300" alt="Binoculars concept illustration">
 </p>
 
-We introduce Binoculars, a state-of-the-art method for detecting AI-generated text. Binoculars is a
-zero-shot and domain-agnostic (requires no training data) method. It is based on a simple idea: most
-decoder-only, causal language models have a huge overlap in pretraining datasets, for e.g. Common Crawl, Pile, etc.
-More details about the method and results can be found in our paper **Spotting LLMs with Binoculars: Zero-Shot
-Detection of Machine-Generated Text**.
+---
 
-## Getting Started
+## Project Overview
 
-### Installation
+**Objectives**
 
-To run the implementation of Binoculars, you can clone this repository and install the package using pip. This code was
-developed and tested on Python This code was developed and tested with Python 3.9. To install the package, run the
-following commands:
+- Reproduce results from the original Binoculars paper on **CC-News, CNN, and PubMed** datasets.
+
+- Evaluate model detection performance using **Falcon-7B base & Falcon-7B-Instruct**.
+
+- Extend the zero-shot evaluation to **Haitian Creole**, a low-resource language.
+
+- Compare **prompted vs. non-prompted generation strategies** using *Aya 101* and *GPT-4*.
+
+- Analyze cross-model performance using **Falcon H1 (multilingual)** as an additional detection pair.
+
+---
+
+## Experimental Setup
+
+| Component | Configuration |
+|----------|----------------|
+| **Model Pairs (Detector)** | Falcon-7B (observer) + Falcon-7B-Instruct (performer)<br>Falcon-H1 1.5B base + H1 deep (extension only) |
+| **Generators** | Aya 101 & GPT-4 |
+| **Generation Methods** | • *Prompted*: explicitly asked to write in Haitian Creole<br>• *Non-prompted*: continuation on raw text |
+| **Chunking** | ~4000 characters per sample, cut only after final word (~5200 chunks) |
+| **Text Types** | News, poetry, blogs/Reddit posts |
+| **Evaluation Metrics** | AUC, F1, TPR@FPR=0.01, Best Threshold |
+
+---
+
+## Summary of Findings
+
+| Task | Key Takeaway |
+|------|--------------|
+| **Reproducibility (English)** | Successfully recovered strong performance trends, though slightly lower than paper (likely due to token limit & hardware constraints). |
+| **Extension (Haitian Creole)** | • Non-prompted text resulted in significantly better performance.<br>• Prompted generation did not improved quality. |
+| **Overall** | Model performance drops dramatically in low-resource language settings. Perhaps aligned multilingual detection models might improve performance. |
+
+---
+
+## Repository Structure
+
+| Folders | Details |
+|----------|----------------|
+| **notebooks** | Google Colab notebook (code) |
+| **results** | Results folders for metrics reports per run |
+| **slides** | PPT presentation file |
+| **extensions** | Links, texts, raw chunked jsonl files (pre generated texts), links of raw data|
+| **datasets** | hk_news, hk_essays, hk_blogs subfolders with gpt4 and aya101 generated texts |
+
+
+---
+
+## Usage
+
+Clone the repository and open either notebook in Google Colab or local Jupyter:
 
 ```bash
-$ git clone https://github.com/ahans30/Binoculars.git
-$ cd Binoculars
-$ pip install -e .
+git clone <repo-url>
 ```
+notebooks/binoculars_reproducibility.ipynb
 
-### Usage
+GPU is recommended due to model size. Tested on A100.
 
-Please note, this implementation comes with a fixed global threshold that is used to classify the input as AI-generated
-or not. This threshold is selected using _Falcon-7B_ and _Falcon-7B-Instruct_ models for scoring. If you want to
-use different scoring models, you can pass it as an argument to the `Binoculars` class. Please read the paper for more
-details about the Binoculars work.
-
-To detect AI-generated text, please use the following code snippet:
-
-```python
-from binoculars import Binoculars
-
-bino = Binoculars()
-
-# ChatGPT (GPT-4) output when prompted with “Can you write a few sentences about a capybara that is an astrophysicist?"
-sample_string = '''Dr. Capy Cosmos, a capybara unlike any other, astounded the scientific community with his 
-groundbreaking research in astrophysics. With his keen sense of observation and unparalleled ability to interpret 
-cosmic data, he uncovered new insights into the mysteries of black holes and the origins of the universe. As he 
-peered through telescopes with his large, round eyes, fellow researchers often remarked that it seemed as if the 
-stars themselves whispered their secrets directly to him. Dr. Cosmos not only became a beacon of inspiration to 
-aspiring scientists but also proved that intellect and innovation can be found in the most unexpected of creatures.'''
-
-print(bino.compute_score(sample_string))  # 0.75661373
-print(bino.predict(sample_string))  # 'Most likely AI-Generated'
-```
-
-In the above code, user can also pass a `list` of `str` to `compute_score` and `predict` methods to get results for
-the entire batch of samples.
-
-### Demo
-
-We have also made a demo available to predict AI-generated text interactively with a simple UI
-using [gradio](https://github.com/gradio-app/gradio). You can run the demo using the following command:
-
-```bash
-$ python app.py
-```
+---
 
 ## Limitations
 
-All AI-generated text detectors aim for accuracy, but none are perfect and can have multiple failure modes (e.g.,
-Binoculars is more proficient in detecting English language text compared to other languages). This implementation is
-for academic purposes only and should not be considered as a consumer product. We also strongly caution against using
-Binoculars (or any detector) without human supervision.
+All results are zero-shot and may degrade significantly in low-resource contexts.
 
-## Cite our work
+Even with prompting, detectors tend to over-classify human-written Creole as machine-generated.
 
-If you find this work useful, please cite our paper:
+English-only base models struggle without multilingual alignment.
 
-```bibtex
+## How to Reference
+
+```
+bibtex
+@misc{dorvil2025repro_binoculars,
+  title={Reproducibility and Low-Resource Language Extension of Binoculars},
+  author={Angeline Dorvil},
+  year={2025},
+  note={Graduate Course Project, Computer Science}
+}
+```
+
+Please also cite the original paper:
+
+```
+bibtex
 @misc{hans2024spotting,
       title={Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text}, 
       author={Abhimanyu Hans and Avi Schwarzschild and Valeriia Cherepanova and Hamid Kazemi and Aniruddha Saha and Micah Goldblum and Jonas Geiping and Tom Goldstein},
@@ -83,3 +108,4 @@ If you find this work useful, please cite our paper:
       primaryClass={cs.CL}
 }
 ```
+

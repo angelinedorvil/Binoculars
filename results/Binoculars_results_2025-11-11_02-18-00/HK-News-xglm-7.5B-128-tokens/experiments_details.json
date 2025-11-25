@@ -1,0 +1,13 @@
+{
+    "dataset_path": "datasets/core/hk_news/hk_news_xglm.jsonl",
+    "dataset_name": "HK-News",
+    "human_sample_key": "text",
+    "machine_sample_key": "xglm_generated_text_wo_prompt",
+    "machine_text_source": "xglm-7.5B",
+    "tokens_seen": 128,
+    "batch_size": 1,
+    "job_name": "HK-News-xglm-7.5B-128-tokens",
+    "start_time": "02:05AM on November 11, 2025",
+    "experiment_path": "results/HK-News-xglm-7.5B-128-tokens",
+    "end_time": "02:12AM on November 11, 2025"
+}

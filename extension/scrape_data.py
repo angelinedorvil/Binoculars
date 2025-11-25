@@ -49,7 +49,7 @@ def extract_html_text(url):
 
         # ---- TEXT ----
         if raw_text.strip() == "":
-            return None  # signals "fallback to PDF"
+            return None  
 
         # COMBINE TITLE AND TEXT INTO ONE TEXT BLOCK
         if title:
@@ -64,7 +64,7 @@ def extract_html_text(url):
             "domain": parsed.netloc,
             "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "url": url,
-            "image_url": None  # Optional – CC-News doesn't always have it
+            "image_url": None  
         }
 
     except Exception as e:
@@ -98,7 +98,7 @@ def extract_multiple(url):
             if current_title and current_lines:
                 poem_body = "\n".join(current_lines).strip()
 
-                # ✅ Combine title + poem into the final text block
+                # Combine title + poem into the final text block
                 combined_text = f"{current_title.strip()}\n\n{poem_body}"
                 parsed = urlparse(url)
                 poems.append({
@@ -107,7 +107,7 @@ def extract_multiple(url):
                     "domain": parsed.netloc,
                     "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     "url": url,
-                    "image_url": None  # Optional – CC-News doesn't always have it
+                    "image_url": None  
 
                 })
 

@@ -1,0 +1,13 @@
+{
+    "dataset_path": "datasets/core/hk_news/hk_news_aya101.jsonl",
+    "dataset_name": "HK-News",
+    "human_sample_key": "text",
+    "machine_sample_key": "aya101_generated_text_wo_prompt",
+    "machine_text_source": "MaziyarPanahi/Mistral-7B-Instruct-Aya-101",
+    "tokens_seen": 128,
+    "batch_size": 1,
+    "job_name": "HK-News-MaziyarPanahi/Mistral-7B-Instruct-Aya-101-128-tokens",
+    "start_time": "01:34AM on November 11, 2025",
+    "experiment_path": "results/HK-News-MaziyarPanahi/Mistral-7B-Instruct-Aya-101-128-tokens",
+    "end_time": "01:42AM on November 11, 2025"
+}

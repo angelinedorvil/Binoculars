@@ -52,13 +52,11 @@ index_page = "https://www.potomitan.info/ayiti/lafontan/index.php"
 
 new_links = extract_creole_links(index_page)
 
-# Dedupe while keeping order
 updated = essays_link[:]
 for link in new_links:
     if link not in updated:
         updated.append(link)
 
-# Print so you can manually paste back into essays_link.py
 print("\nUpdated essays_link list:\n")
 print("essays_link = [")
 for url in updated:

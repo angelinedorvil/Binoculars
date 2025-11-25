@@ -1,0 +1,13 @@
+{
+    "dataset_path": "datasets/core/hk_essays/essays_gpt4o.jsonl",
+    "dataset_name": "HK-essays-GNP",
+    "human_sample_key": "text",
+    "machine_sample_key": "gpt4o_no_prompt",
+    "machine_text_source": "gpt4o",
+    "tokens_seen": 1024,
+    "batch_size": 2,
+    "job_name": "HK-essays-GNP-gpt4o-1024-tokens",
+    "start_time": "06:17PM on November 20, 2025",
+    "experiment_path": "results/HK-essays-GNP-gpt4o-1024-tokens",
+    "end_time": "06:24PM on November 20, 2025"
+}
